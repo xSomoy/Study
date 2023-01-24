@@ -3,6 +3,6 @@ total_mile = 10/1.61
 
 avg_time_per_mile = total_time / total_mile
 
-print(avg_time_per_mile) # in seconds
+print('Avarage Time Per Mile (In Seconds): ' + "{:.2f}".format(avg_time_per_mile)) # in seconds
 
 
