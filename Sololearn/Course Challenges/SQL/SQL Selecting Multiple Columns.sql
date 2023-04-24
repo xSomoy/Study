@@ -1,0 +1,1 @@
+select ProductName,ProductionDate,ExpirationDate from products
