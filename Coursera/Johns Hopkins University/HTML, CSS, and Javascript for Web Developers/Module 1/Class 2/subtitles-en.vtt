@@ -1,0 +1,299 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:02.373
+[MUSIC]
+
+2
+00:00:06.970 --> 00:00:11.033
+In this lecture we going to go over how
+to set up your development environment.
+
+3
+00:00:11.033 --> 00:00:13.680
+So what tools are you going to need for
+this course?
+
+4
+00:00:13.680 --> 00:00:18.200
+So number one is you're going to need to
+sign up for an account on GitHub.com.
+
+5
+00:00:18.200 --> 00:00:21.949
+Number two is we're going to heavily
+rely on the Google Chrome browser, so
+
+6
+00:00:21.949 --> 00:00:24.620
+you definitely download and install that.
+
+7
+00:00:24.620 --> 00:00:28.490
+And the Google Chrome browser already
+comes with what's called CDT,
+
+8
+00:00:28.490 --> 00:00:30.330
+otherwise known as Chrome Developer Tools.
+
+9
+00:00:30.330 --> 00:00:33.560
+And we're going to be using them
+pretty extensively as well.
+
+10
+00:00:33.560 --> 00:00:35.400
+Okay.
+You need a code editor.
+
+11
+00:00:35.400 --> 00:00:40.070
+So the recommended code editor that I'll
+be at least using will be Sublime Text 3.
+
+12
+00:00:40.070 --> 00:00:43.960
+Now I'll show you in a minute how
+to download it and install it.
+
+13
+00:00:43.960 --> 00:00:47.723
+But Sublime Text 3 technically
+still in beta release, but
+
+14
+00:00:47.723 --> 00:00:52.614
+it's been in beta release for years and
+it's in fact the developer of Sublime
+
+15
+00:00:52.614 --> 00:00:56.670
+says that that is the recommended
+one to download and use.
+
+16
+00:00:56.670 --> 00:00:59.700
+So, it's not a problem to use
+it even though it's beta.
+
+17
+00:00:59.700 --> 00:01:03.770
+There are a couple of other code editors
+that I would recommend looking at.
+
+18
+00:01:03.770 --> 00:01:07.580
+One is Visual Studio Code,
+that's a pretty new editor.
+
+19
+00:01:07.580 --> 00:01:11.030
+Another one is Brackets, Brackets.IO.
+
+20
+00:01:11.030 --> 00:01:13.600
+But Sublime is extremely fast, and
+
+21
+00:01:13.600 --> 00:01:17.570
+very well supported,
+in terms of third party plugins and so on.
+
+22
+00:01:17.570 --> 00:01:20.120
+So, definitely would recommend that.
+
+23
+00:01:20.120 --> 00:01:24.090
+We're going to also need Git and
+we'll talk about Git a little bit more.
+
+24
+00:01:24.090 --> 00:01:27.240
+And we're also going to need this
+tool called Browser Sync and
+
+25
+00:01:27.240 --> 00:01:28.820
+you'll see how we're going to use that.
+
+26
+00:01:28.820 --> 00:01:33.090
+And in order to install Browser Sync
+we're going to need to install NodeJs.
+
+27
+00:01:33.090 --> 00:01:36.300
+So we're going to split up
+this lecture in two lectures.
+
+28
+00:01:36.300 --> 00:01:39.649
+One, I'm going to show you a couple
+kind of preliminary things and
+
+29
+00:01:39.649 --> 00:01:43.210
+this is I'm just going to show
+you on this machine right here.
+
+30
+00:01:43.210 --> 00:01:47.510
+And then I'm going to split up part
+two into one will be for Windows and
+
+31
+00:01:47.510 --> 00:01:49.610
+one will be for Mac.
+
+32
+00:01:49.610 --> 00:01:53.540
+Show you the installations of Git and
+Browser Sync and NodeJs.
+
+33
+00:01:53.540 --> 00:01:55.770
+Okay, so, the first thing is,
+I am going to go ahead and
+
+34
+00:01:55.770 --> 00:01:58.780
+skip how to install Google Chrome browser.
+
+35
+00:01:58.780 --> 00:02:01.750
+Really hoping you know how to
+install a browser by yourself.
+
+36
+00:02:01.750 --> 00:02:06.030
+You'll just, either, Google for it or
+maybe you're using it all ready.
+
+37
+00:02:06.030 --> 00:02:08.690
+And there's nothing really to install
+in terms Chrome Developer Tools,
+
+38
+00:02:08.690 --> 00:02:12.050
+they already come together with
+every Chrome browser download.
+
+39
+00:02:12.050 --> 00:02:13.980
+So there's really nothing to do there.
+
+40
+00:02:13.980 --> 00:02:16.270
+In terms of signing up for GitHub.
+
+41
+00:02:16.270 --> 00:02:20.430
+We're going to use GitHub extensively
+throughout the course and all you have to
+
+42
+00:02:20.430 --> 00:02:25.380
+sign up by giving username, your email,
+create a password, and you're good to go.
+
+43
+00:02:25.380 --> 00:02:28.400
+There's really nothing much to it.
+
+44
+00:02:28.400 --> 00:02:31.400
+The third thing you're going to need
+is that at least I'll show you in
+
+45
+00:02:31.400 --> 00:02:33.740
+part two of this lecture is Sublime Text.
+
+46
+00:02:33.740 --> 00:02:38.450
+So go ahead and in Sublime and
+go ahead and search.
+
+47
+00:02:38.450 --> 00:02:42.260
+Can't think and type at the same time,
+Sublime Text 3.
+
+48
+00:02:42.260 --> 00:02:45.610
+If you, I misspelled that,
+that's excellent, okay, here we go.
+
+49
+00:02:45.610 --> 00:02:49.120
+So Sublime Text 3,
+hopefully you'll spell it properly.
+
+50
+00:02:49.120 --> 00:02:50.120
+And you go ahead and click.
+
+51
+00:02:50.120 --> 00:02:51.790
+Make sure you do Sublime Text 3,
+
+52
+00:02:51.790 --> 00:02:56.190
+not just Sublime Text, because you're
+going to end up on Sublime Text 2 webpage.
+
+53
+00:02:56.190 --> 00:02:57.790
+So if you click on Sublime Text 3,
+
+54
+00:02:57.790 --> 00:03:02.960
+you'll see that you have a bunch
+of downloads here for Mac OS,
+
+55
+00:03:02.960 --> 00:03:07.920
+for Windows or for
+Windows 64 bit version, or for Linux.
+
+56
+00:03:07.920 --> 00:03:11.690
+So you can basically pick whatever flavor
+you'd like, you download it, double click
+
+57
+00:03:11.690 --> 00:03:16.140
+it, or drag and drop, whatever, depending
+on which operating system you're on.
+
+58
+00:03:16.140 --> 00:03:19.710
+There's really nothing much for
+me to show you there other than
+
+59
+00:03:19.710 --> 00:03:23.950
+this is the page where you download the
+installer, and you're really good to go.
+
+60
+00:03:23.950 --> 00:03:26.970
+Okay, so I'm going to wrap
+up part one of this lecture.
+
+61
+00:03:26.970 --> 00:03:31.308
+And part two of this lecture, we're going
+to split again, into one being Windows,
+
+62
+00:03:31.308 --> 00:03:32.359
+another being Mac.
+
+63
+00:03:32.359 --> 00:03:37.699
+And I'll show you how to install Git,
+and Browser Sync together, with NodeJs.

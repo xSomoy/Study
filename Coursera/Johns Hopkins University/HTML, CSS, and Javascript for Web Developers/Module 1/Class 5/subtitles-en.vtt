@@ -1,0 +1,1479 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:03.183
+[MUSIC]
+
+2
+00:00:06.671 --> 00:00:10.646
+Okay, so I'm back in my Mac and
+I'm actually looking at github.com.
+
+3
+00:00:10.646 --> 00:00:13.220
+And I'm already logged in into GitHub.
+
+4
+00:00:13.220 --> 00:00:16.412
+So the first thing we're going to
+do is we're going to go over how to
+
+5
+00:00:16.412 --> 00:00:18.307
+create your own repository on GitHub.
+
+6
+00:00:18.307 --> 00:00:22.774
+And then how to turn that repository into
+something you could store your code in
+
+7
+00:00:22.774 --> 00:00:24.067
+your website code in.
+
+8
+00:00:24.067 --> 00:00:29.052
+And then have that same repository turn
+around and host your website for you.
+
+9
+00:00:29.052 --> 00:00:32.234
+As part of this demonstration,
+I'm obviously
+
+10
+00:00:32.234 --> 00:00:37.005
+going to use some git commands in
+order to commit, in order to save, and
+
+11
+00:00:37.005 --> 00:00:41.956
+in order to upload our code that is
+locally in our machine to github.com.
+
+12
+00:00:41.956 --> 00:00:46.030
+Now, I highly encourage you to
+actually learn get pretty in-depth.
+
+13
+00:00:46.030 --> 00:00:50.830
+I'm not going to have a whole course here
+in just a lecture or so on Git, I will
+
+14
+00:00:50.830 --> 00:00:55.000
+carry give you enough of the commands so
+you'll be able to be functional.
+
+15
+00:00:55.000 --> 00:00:56.980
+But I would very highly
+encourage you to go and
+
+16
+00:00:56.980 --> 00:01:01.180
+read it at least through the branches
+chapter of the Git book.
+
+17
+00:01:01.180 --> 00:01:03.003
+And the way you could do
+that is it's free online.
+
+18
+00:01:03.003 --> 00:01:04.880
+You can just say Git book.
+
+19
+00:01:04.880 --> 00:01:09.510
+If you say Git book, the very first thing
+you should come up as this Git book link.
+
+20
+00:01:09.510 --> 00:01:12.423
+And this is a book that if you
+wanted to actually get a PDF or
+
+21
+00:01:12.423 --> 00:01:14.503
+you could read the entire thing online.
+
+22
+00:01:14.503 --> 00:01:18.320
+And I strongly suggest that you
+read the first three chapters.
+
+23
+00:01:18.320 --> 00:01:21.828
+It's really not that complicated, but
+for our purposes as long as you know
+
+24
+00:01:21.828 --> 00:01:24.732
+the commands that I'm going to give you,
+you should be okay.
+
+25
+00:01:24.732 --> 00:01:28.720
+But if you want to become a full stack
+developer or even just a front-end
+
+26
+00:01:28.720 --> 00:01:33.060
+developer, you should definitely try
+to learn Git and its basic commands.
+
+27
+00:01:33.060 --> 00:01:35.080
+Okay, so I am in my account right now.
+
+28
+00:01:35.080 --> 00:01:37.265
+This is my ychikin and this is my account.
+
+29
+00:01:37.265 --> 00:01:41.174
+And probably you're going to see
+something very similar, but you probably
+
+30
+00:01:41.174 --> 00:01:45.665
+aren't going to have as many things going
+on possibly in your GitHub account.
+
+31
+00:01:45.665 --> 00:01:49.005
+So the first thing you want to do
+is create a GitHub repository.
+
+32
+00:01:49.005 --> 00:01:52.382
+This is how you're going to basically
+submit your assignments as well.
+
+33
+00:01:52.382 --> 00:01:55.799
+So you could go to your picture,
+your icon whatever it is, and
+
+34
+00:01:55.799 --> 00:01:59.840
+there's a little icon next to it
+to the left of it and it's a plus.
+
+35
+00:01:59.840 --> 00:02:03.541
+And if you click on it, click on the down
+arrow you could say New repository.
+
+36
+00:02:03.541 --> 00:02:09.207
+And I'm go ahead and create a new
+repository, we'll call it coursera-test.
+
+37
+00:02:09.207 --> 00:02:12.390
+And this is a cavity try that before so
+it's already knows that I've trie that.
+
+38
+00:02:12.390 --> 00:02:15.733
+So coursera-test and I'll give you a green
+check mark saying, yes, it's available.
+
+39
+00:02:15.733 --> 00:02:20.321
+And I'll just say that
+this is a Coursera test
+
+40
+00:02:20.321 --> 00:02:24.563
+repository and it's going to be public.
+
+41
+00:02:24.563 --> 00:02:26.535
+If you want to make it private,
+you have to pay.
+
+42
+00:02:26.535 --> 00:02:28.892
+We're not going to want to pay, so we're
+going to just make it leave it public.
+
+43
+00:02:28.892 --> 00:02:33.658
+And we'll go ahead and initialize it with
+a README file always always a good idea.
+
+44
+00:02:33.658 --> 00:02:37.250
+And all you have to do now
+is click Create repository.
+
+45
+00:02:37.250 --> 00:02:38.760
+Let's go ahead and do that.
+
+46
+00:02:38.760 --> 00:02:42.050
+And voila,
+I have my own repository ready to go.
+
+47
+00:02:42.050 --> 00:02:45.940
+So once I have this repository, I can
+start interacting with it not only online
+
+48
+00:02:45.940 --> 00:02:50.660
+here, but also through my command line
+prompt and upload code to this repository.
+
+49
+00:02:50.660 --> 00:02:51.970
+But before we do any of that,
+
+50
+00:02:51.970 --> 00:02:57.710
+let's prepare this repository to host
+our actual website to the outside world.
+
+51
+00:02:57.710 --> 00:03:00.430
+In order to do that,
+we have to do a couple of special things.
+
+52
+00:03:00.430 --> 00:03:02.700
+Number one is we have to go to Settings.
+
+53
+00:03:02.700 --> 00:03:06.602
+We'll go ahead and go right here on
+the top right, we'll click on Settings.
+
+54
+00:03:06.602 --> 00:03:11.903
+And if we scroll down, you'll see here
+GitHub Pages, Automatic page generator.
+
+55
+00:03:11.903 --> 00:03:14.647
+Basically, it says create
+a beautiful website or site for
+
+56
+00:03:14.647 --> 00:03:17.870
+your project with our automatic
+GitHub page generator.
+
+57
+00:03:17.870 --> 00:03:21.678
+Okay, so all you really have to do is
+click this button launch Automatic page
+
+58
+00:03:21.678 --> 00:03:22.342
+generator.
+
+59
+00:03:22.342 --> 00:03:24.370
+And it doesn't really
+matter what this says,
+
+60
+00:03:24.370 --> 00:03:26.750
+you could certainly customize that later.
+
+61
+00:03:26.750 --> 00:03:31.120
+You could scroll down all the way down and
+say Continue to layouts.
+
+62
+00:03:31.120 --> 00:03:34.810
+And by default, it's going to give you
+this pretty neat way out actually,
+
+63
+00:03:34.810 --> 00:03:38.860
+and you don't have to even check Iit out,
+you could just click Publish page.
+
+64
+00:03:38.860 --> 00:03:40.690
+So the layout is not
+really what we're after.
+
+65
+00:03:40.690 --> 00:03:44.910
+So once we're done with that, you'll see
+here that as your project has been created
+
+66
+00:03:44.910 --> 00:03:48.410
+at HTTP and you'll see your username,
+your GitHub username.
+
+67
+00:03:48.410 --> 00:03:53.332
+And then the URL is
+github.io/coursera-test.
+
+68
+00:03:53.332 --> 00:03:55.600
+That's where your page is located.
+
+69
+00:03:55.600 --> 00:04:03.150
+So if I go right now and copy this link
+right here, and we'll go to a new tab.
+
+70
+00:04:03.150 --> 00:04:06.500
+You're really going to see the entire
+website that we just so right here, right?
+
+71
+00:04:06.500 --> 00:04:08.240
+Then it's so pre-filled for you already.
+
+72
+00:04:09.780 --> 00:04:11.390
+Now, this link will not always stay here.
+
+73
+00:04:11.390 --> 00:04:13.860
+If you refresh the browser, it's gone.
+
+74
+00:04:13.860 --> 00:04:15.783
+So how do we you if you
+forget where that link is?
+
+75
+00:04:15.783 --> 00:04:17.164
+Where do you find it?
+
+76
+00:04:17.164 --> 00:04:20.277
+Well, you go back to Settings and
+you scroll down, and
+
+77
+00:04:20.277 --> 00:04:23.060
+under GitHub Pages you'll
+see that link again.
+
+78
+00:04:23.060 --> 00:04:25.910
+You can actually click it,
+open it up, and there it is again.
+
+79
+00:04:27.480 --> 00:04:29.010
+Now, when you created the GitHub pages,
+
+80
+00:04:29.010 --> 00:04:32.450
+let's go back to our repository,
+we'll click on this coursera-test.
+
+81
+00:04:32.450 --> 00:04:35.635
+So now when you created that
+link what you actually did is,
+
+82
+00:04:35.635 --> 00:04:37.397
+you created a separate branch.
+
+83
+00:04:37.397 --> 00:04:41.025
+Now, I'm not going to go into, again,
+the whole big explanation about branches.
+
+84
+00:04:41.025 --> 00:04:45.766
+But the bottom line is the way Git
+works is it can have several branches
+
+85
+00:04:45.766 --> 00:04:50.101
+like several parallel streams
+almost of the same repository,
+
+86
+00:04:50.101 --> 00:04:52.982
+of the same kind of database of your code.
+
+87
+00:04:52.982 --> 00:04:56.481
+So the way you see what branches
+you have is right here branch,
+
+88
+00:04:56.481 --> 00:04:58.581
+I know your kind of see it says master.
+
+89
+00:04:58.581 --> 00:04:59.589
+But you click on it and
+
+90
+00:04:59.589 --> 00:05:03.565
+you'll see that there's another branch
+here that actually wasn't there before.
+
+91
+00:05:03.565 --> 00:05:06.215
+If we opened up before we
+would have seen only master.
+
+92
+00:05:06.215 --> 00:05:08.895
+But now there's another
+one called gh-pages.
+
+93
+00:05:08.895 --> 00:05:10.831
+If you click on that gh-pages,
+
+94
+00:05:10.831 --> 00:05:15.000
+you'll see all the stuff here you
+really didn't put in here before.
+
+95
+00:05:15.000 --> 00:05:20.545
+Well, with this stuff is that
+website that was created for you.
+
+96
+00:05:20.545 --> 00:05:25.130
+So that index.html is that big page or
+the giant green banner that you've seen.
+
+97
+00:05:25.130 --> 00:05:30.020
+So now, if you're an advanced GitHub user,
+feel free to use whatever branch you want.
+
+98
+00:05:30.020 --> 00:05:34.580
+And then go ahead and
+merge your stuff into the gh-pages branch.
+
+99
+00:05:34.580 --> 00:05:37.594
+B ut just know that whatever
+is in gh-pages branch,
+
+100
+00:05:37.594 --> 00:05:42.930
+that's the only thing that's going to show
+up on that special link that you created.
+
+101
+00:05:42.930 --> 00:05:46.740
+Nothing in the master, nothing any
+other branches will actually show up.
+
+102
+00:05:46.740 --> 00:05:51.647
+So for the beginners, what I would suggest
+doing is that you should always use
+
+103
+00:05:51.647 --> 00:05:54.303
+gh-pages and commit everything there.
+
+104
+00:05:54.303 --> 00:05:59.560
+But just remember that the base directory
+is that website that got created.
+
+105
+00:05:59.560 --> 00:06:02.102
+So if I were you,
+I'll probably create a subfolder and
+
+106
+00:06:02.102 --> 00:06:03.881
+put everything into that subfolder.
+
+107
+00:06:03.881 --> 00:06:08.380
+And leave this front page alone, or if you
+want you could wipe the whole thing out
+
+108
+00:06:08.380 --> 00:06:11.930
+and just create your own page
+right here in the root folder.
+
+109
+00:06:11.930 --> 00:06:15.653
+But for now, it's time to go ahead and
+take this repository and
+
+110
+00:06:15.653 --> 00:06:17.773
+bring it down to our local machine.
+
+111
+00:06:17.773 --> 00:06:21.353
+Well, the way we could do that
+is we have right here this URL.
+
+112
+00:06:21.353 --> 00:06:23.644
+This URL actually points
+to our repository.
+
+113
+00:06:23.644 --> 00:06:25.860
+You can see it has coursera-test.git.
+
+114
+00:06:25.860 --> 00:06:29.716
+And we could copy this URL by
+just simply clicking this link.
+
+115
+00:06:29.716 --> 00:06:31.632
+We'll go ahead and open the terminal.
+
+116
+00:06:31.632 --> 00:06:34.740
+So now what we'll do is
+we'll say git clone.
+
+117
+00:06:34.740 --> 00:06:39.562
+Clone is the command to actually take
+the repository that is somewhere remotely.
+
+118
+00:06:39.562 --> 00:06:42.002
+And just provide the URL
+to the repository.
+
+119
+00:06:42.002 --> 00:06:43.853
+And you can see we're done.
+
+120
+00:06:43.853 --> 00:06:46.761
+If we do a list now,
+you'll see that I have coursera-test.
+
+121
+00:06:46.761 --> 00:06:49.164
+That is our repository right there.
+
+122
+00:06:49.164 --> 00:06:52.258
+Let's go ahead and cd into it.
+
+123
+00:06:52.258 --> 00:06:55.180
+And you'll see that the only
+thing there it's README.
+
+124
+00:06:55.180 --> 00:06:59.055
+Okay, so really what's going
+on is if do git status,
+
+125
+00:06:59.055 --> 00:07:04.841
+you'll see that we are on branch master
+and nothing really is right now change.
+
+126
+00:07:04.841 --> 00:07:07.632
+The thing is though, we weren't
+really want to be on branch master.
+
+127
+00:07:07.632 --> 00:07:10.715
+Again, unless you are you
+know more advanced user,
+
+128
+00:07:10.715 --> 00:07:13.179
+really want to be on the branch gh-pages.
+
+129
+00:07:13.179 --> 00:07:18.467
+And the way we could do that is
+to say git checkout gh-pages.
+
+130
+00:07:18.467 --> 00:07:23.430
+And when we do that,
+now we say git status.
+
+131
+00:07:23.430 --> 00:07:24.841
+We're going to be on gh-pages.
+
+132
+00:07:24.841 --> 00:07:29.725
+And if you do ls, you'll see all
+that index.html params.json and
+
+133
+00:07:29.725 --> 00:07:31.361
+stylesheets folder.
+
+134
+00:07:31.361 --> 00:07:35.356
+It's all there from,
+if we switch back to the browser,
+
+135
+00:07:35.356 --> 00:07:38.000
+it's all right here in that branch.
+
+136
+00:07:39.280 --> 00:07:40.960
+So now we have a couple of choices.
+
+137
+00:07:40.960 --> 00:07:43.713
+If we want, we could just go ahead and
+wipe out this whole thing.
+
+138
+00:07:43.713 --> 00:07:46.868
+And we'll basically wipe out
+that auto-generated website or
+
+139
+00:07:46.868 --> 00:07:48.125
+we could leave it alone.
+
+140
+00:07:48.125 --> 00:07:53.060
+And just basically make a directory and
+then call it,
+
+141
+00:07:53.060 --> 00:07:57.783
+let's say, site and
+cd into that site directory.
+
+142
+00:07:57.783 --> 00:07:59.530
+And there's nothing there, great.
+
+143
+00:07:59.530 --> 00:08:02.180
+So now we could go ahead and
+open up sublime text.
+
+144
+00:08:04.310 --> 00:08:08.149
+And we'll save this page right here.
+
+145
+00:08:08.149 --> 00:08:11.821
+We'll go ahead and save this page too,
+
+146
+00:08:11.821 --> 00:08:16.065
+now at coursera > coursera-test and site.
+
+147
+00:08:16.065 --> 00:08:19.790
+We'll save it and call it index.html.
+
+148
+00:08:19.790 --> 00:08:25.751
+And we could quickly do html and do Ctrl
++ Space for a quick little template.
+
+149
+00:08:25.751 --> 00:08:28.862
+We'll say Hello Coursera and
+
+150
+00:08:28.862 --> 00:08:33.968
+we'll have h1 here,
+also say Hello Coursera.
+
+151
+00:08:36.213 --> 00:08:39.130
+Okay, so we have a very quick page,
+we saved it.
+
+152
+00:08:39.130 --> 00:08:41.430
+Let's go back to our terminal.
+
+153
+00:08:41.430 --> 00:08:44.220
+We'll do an ls, and
+we see this index.html.
+
+154
+00:08:44.220 --> 00:08:50.076
+So now to check what's going on in our
+local git, we'll say git status again.
+
+155
+00:08:50.076 --> 00:08:56.552
+And we'll see that actually ./ and that's
+because we're inside the site directory,
+
+156
+00:08:56.552 --> 00:09:00.363
+we say that that / is not
+actually committed at all.
+
+157
+00:09:00.363 --> 00:09:04.508
+Well, we could go one directory up and
+then we'll do git status and
+
+158
+00:09:04.508 --> 00:09:08.654
+that will tell you that the site
+directory is not even committed and
+
+159
+00:09:08.654 --> 00:09:11.110
+it's not even marked to be committed.
+
+160
+00:09:11.110 --> 00:09:13.819
+So the way Git works in
+order to be committed into
+
+161
+00:09:13.819 --> 00:09:18.452
+kind that your code database, which
+actually resides locally in your machine.
+
+162
+00:09:18.452 --> 00:09:20.711
+It is not the remote one,
+not to GitHub, but
+
+163
+00:09:20.711 --> 00:09:24.703
+the local in your machine is you first
+have to mark something for committing.
+
+164
+00:09:24.703 --> 00:09:29.550
+The way you mark something for committing
+is you say git add and then you say what
+
+165
+00:09:29.550 --> 00:09:33.462
+it is you want to commit or
+that is you want to mark for committing.
+
+166
+00:09:33.462 --> 00:09:37.958
+And this why I'll say dot and will just
+include everything in my local folder, and
+
+167
+00:09:37.958 --> 00:09:38.819
+that's done.
+
+168
+00:09:38.819 --> 00:09:43.803
+I'll say git status again and
+you'll see now what's marked for
+
+169
+00:09:43.803 --> 00:09:47.990
+to be committed is that
+new file site/index.html.
+
+170
+00:09:47.990 --> 00:09:50.350
+And once again,
+we haven't committed anything yet.
+
+171
+00:09:50.350 --> 00:09:51.932
+We just marked it to be committed.
+
+172
+00:09:51.932 --> 00:09:55.706
+Well, in order to actually
+commit it we'll say git commit,
+
+173
+00:09:55.706 --> 00:10:00.303
+we'll say- m which is required for
+message and we'll give it a message.
+
+174
+00:10:00.303 --> 00:10:05.076
+The message say My First page.
+
+175
+00:10:05.076 --> 00:10:07.990
+So we'll press Enter, and we're done.
+
+176
+00:10:07.990 --> 00:10:12.413
+And the only thing we need to do now
+is actually put this into our remote,
+
+177
+00:10:12.413 --> 00:10:15.602
+meaning into our GitHub
+on the remote repository.
+
+178
+00:10:15.602 --> 00:10:18.570
+Right now everything is sitting
+in the local repository.
+
+179
+00:10:18.570 --> 00:10:22.910
+If we say git status again,
+you'll see that everything is great,
+
+180
+00:10:22.910 --> 00:10:25.180
+except it'll tell you that your branch,
+
+181
+00:10:25.180 --> 00:10:29.360
+meaning this origin/gh-pages don't
+worry about this origin thing.
+
+182
+00:10:29.360 --> 00:10:34.280
+Just ignore it for now, but
+gh-pages is ahead by 1 commit,
+
+183
+00:10:34.280 --> 00:10:39.680
+meaning our local version of our
+repository with all of our code
+
+184
+00:10:39.680 --> 00:10:45.710
+is actually ahead of the one that is
+remote, which is our GitHub repository.
+
+185
+00:10:45.710 --> 00:10:49.726
+So the way we actually do it actually
+tells you right here is just issue
+
+186
+00:10:49.726 --> 00:10:50.428
+a git push.
+
+187
+00:10:50.428 --> 00:10:54.762
+Meaning we'll take our repository,
+take our database error code and
+
+188
+00:10:54.762 --> 00:10:59.275
+we'll push it to the remote database
+which is residing at github.com.
+
+189
+00:10:59.275 --> 00:11:03.592
+So we'll go ahead and say git push, and
+at this point after we enter your machine
+
+190
+00:11:03.592 --> 00:11:06.243
+might ask you for user and
+a password for GitHub.
+
+191
+00:11:06.243 --> 00:11:08.663
+My machine has it already
+entered automatically and
+
+192
+00:11:08.663 --> 00:11:12.450
+you could look up on the web how to
+do that, so it doesn't ask you again.
+
+193
+00:11:12.450 --> 00:11:16.180
+But we'll say git push and
+it should give you something like this.
+
+194
+00:11:16.180 --> 00:11:19.723
+It will tell you something about the fact
+that it wrote in to this repository.
+
+195
+00:11:19.723 --> 00:11:25.016
+And you'll see gh-pages
+on our local machine has
+
+196
+00:11:25.016 --> 00:11:30.090
+been transferred to
+the remote one gh-pages.
+
+197
+00:11:30.090 --> 00:11:34.515
+Okay, so now if we switch to our
+browser and we'll refresh this page,
+
+198
+00:11:34.515 --> 00:11:37.672
+you'll see that this site
+folder showed up here.
+
+199
+00:11:37.672 --> 00:11:41.740
+If we click inside of it,
+you'll see the index.html.
+
+200
+00:11:41.740 --> 00:11:43.422
+Well, let's see if it actually works.
+
+201
+00:11:43.422 --> 00:11:47.589
+We'll go to settings again because I
+don't remember this URL anymore, and
+
+202
+00:11:47.589 --> 00:11:50.515
+we'll click on this URL
+open up in a separate tab.
+
+203
+00:11:50.515 --> 00:11:53.979
+And what we see here is that
+page made by GitHub for you, but
+
+204
+00:11:53.979 --> 00:11:58.454
+we remember that right underneath that
+folder is that folder called site.
+
+205
+00:11:58.454 --> 00:12:02.105
+And if we say site/ here's our page,
+Hello Coursera!
+
+206
+00:12:02.105 --> 00:12:03.782
+That's the page that we made.
+
+207
+00:12:03.782 --> 00:12:08.676
+And the reason I don't actually have
+to specify index.html page itself is
+
+208
+00:12:08.676 --> 00:12:13.351
+because most servers when you say
+/ they will default to index.html.
+
+209
+00:12:13.351 --> 00:12:15.507
+So I don't have to explicitly say it, and
+
+210
+00:12:15.507 --> 00:12:17.982
+clearly GitHub server is
+one of those servers.
+
+211
+00:12:17.982 --> 00:12:21.522
+And the truth is most service
+out there actually do this.
+
+212
+00:12:21.522 --> 00:12:24.682
+And if we creat the name of subfolders
+here, we could certainly specify them.
+
+213
+00:12:24.682 --> 00:12:28.848
+And if you wanted to, for example,
+do assignments for different modules and
+
+214
+00:12:28.848 --> 00:12:32.260
+you could say module one assignment
+slash something and so on.
+
+215
+00:12:32.260 --> 00:12:33.680
+And this is Is the way for
+
+216
+00:12:33.680 --> 00:12:37.246
+you to be able to submit your
+assignments to us to be graded.
+
+217
+00:12:37.246 --> 00:12:39.590
+And then you could continue
+making your changes.
+
+218
+00:12:39.590 --> 00:12:41.630
+So we'll go ahead and open up Sublime.
+
+219
+00:12:41.630 --> 00:12:42.949
+We could make another change.
+
+220
+00:12:42.949 --> 00:12:47.790
+Hello Coursera, it's a great course.
+
+221
+00:12:49.130 --> 00:12:50.520
+We'll save it again.
+
+222
+00:12:50.520 --> 00:12:54.211
+We'll go back to our command line,
+we'll say git status.
+
+223
+00:12:54.211 --> 00:12:57.480
+And you'll see that now
+we have a modified page.
+
+224
+00:12:57.480 --> 00:13:00.903
+Well, again, we haven't really
+marked it to be committed yet.
+
+225
+00:13:00.903 --> 00:13:04.290
+If we're done editing it we
+could go ahead and say git add.
+
+226
+00:13:04.290 --> 00:13:07.837
+And we could say it's explicitly if
+we want to or we could just say dot,
+
+227
+00:13:07.837 --> 00:13:08.931
+it doesn't matter.
+
+228
+00:13:08.931 --> 00:13:11.340
+And we added it,
+we'll say git status again.
+
+229
+00:13:11.340 --> 00:13:16.501
+And you'll see now it is again mark
+to be committed to the repository,
+
+230
+00:13:16.501 --> 00:13:18.434
+to our local repository.
+
+231
+00:13:18.434 --> 00:13:23.607
+Well, I will say again git commit -m for
+message,
+
+232
+00:13:23.607 --> 00:13:28.793
+and we'll say Small addition
+to our page content.
+
+233
+00:13:28.793 --> 00:13:33.779
+And we'll say enter and now we've
+committed a change that we just made,
+
+234
+00:13:33.779 --> 00:13:38.100
+committed that change into
+our local git repository.
+
+235
+00:13:38.100 --> 00:13:40.770
+But our remote repository doesn't
+know anything about this.
+
+236
+00:13:40.770 --> 00:13:44.610
+In fact, if we switch the browser and
+we'll refresh, still the same.
+
+237
+00:13:44.610 --> 00:13:48.482
+Well, the reason it's still the same is
+because nothing really is been uploaded to
+
+238
+00:13:48.482 --> 00:13:49.102
+GitHub yet.
+
+239
+00:13:49.102 --> 00:13:54.165
+And if we do git status, it will tell us
+again that our local branc, the gh-pages
+
+240
+00:13:54.165 --> 00:13:59.319
+is ahead of the remote one by 1 commit,
+because we committed something already.
+
+241
+00:13:59.319 --> 00:14:01.055
+And we can have more than one commit here.
+
+242
+00:14:01.055 --> 00:14:04.895
+We can have more than one commit and
+then at some point we'll go ahead and
+
+243
+00:14:04.895 --> 00:14:07.711
+upload it or
+publish our changes to our repository.
+
+244
+00:14:07.711 --> 00:14:11.070
+So we'll say git push
+to publish our changes.
+
+245
+00:14:12.670 --> 00:14:13.300
+And we're done.
+
+246
+00:14:13.300 --> 00:14:17.392
+So if we switch to the browser and
+refresh, it might take a little bit, but
+
+247
+00:14:17.392 --> 00:14:19.111
+eventually this will happen.
+
+248
+00:14:19.111 --> 00:14:21.840
+So something probably got crash,
+here we go.
+
+249
+00:14:21.840 --> 00:14:23.260
+It just takes a little bit for
+
+250
+00:14:23.260 --> 00:14:26.540
+it to propagate from its
+repository to its website.
+
+251
+00:14:26.540 --> 00:14:29.330
+So it took a few seconds, but it's here.
+
+252
+00:14:29.330 --> 00:14:32.761
+Okay, so there's clearly many,
+many other commands that you could use.
+
+253
+00:14:32.761 --> 00:14:36.042
+For example you could use git pull of
+somebody else changed your repository.
+
+254
+00:14:36.042 --> 00:14:38.638
+Let's say you're collaborating
+with somebody and
+
+255
+00:14:38.638 --> 00:14:42.072
+somebody updated something in
+the remote repository in the GitHub.
+
+256
+00:14:42.072 --> 00:14:45.360
+You want to get those changes
+to your local machine,
+
+257
+00:14:45.360 --> 00:14:47.893
+you'll say git space pull, and so on.
+
+258
+00:14:47.893 --> 00:14:48.403
+And again,
+
+259
+00:14:48.403 --> 00:14:51.822
+I encourage you to go through the first
+couple of two three chapters of the book.
+
+260
+00:14:51.822 --> 00:14:53.732
+And it's definitely very helpful for
+
+261
+00:14:53.732 --> 00:14:56.390
+you to understand what's
+really going on with Git.
+
+262
+00:14:56.390 --> 00:15:00.281
+However, the commands I gave you should
+be good enough to be able to publish your
+
+263
+00:15:00.281 --> 00:15:01.103
+code to GitHub.
+
+264
+00:15:01.103 --> 00:15:04.154
+And at the same time
+publish it to GitHub pages,
+
+265
+00:15:04.154 --> 00:15:06.991
+so they could be visible
+to the whole world.
+
+266
+00:15:06.991 --> 00:15:10.229
+And to the rest of the peers
+to be able to be graded.
+
+267
+00:15:10.229 --> 00:15:13.433
+So the next thing I would like to
+show you is how to use browsersync.
+
+268
+00:15:13.433 --> 00:15:15.778
+Let's go ahead and clear our page and
+
+269
+00:15:15.778 --> 00:15:20.103
+we are still here inside the GitHub
+repository or our local folder.
+
+270
+00:15:20.103 --> 00:15:24.700
+We'll go ahead and go inside site and
+here's our index.html.
+
+271
+00:15:24.700 --> 00:15:30.420
+So browsersync the sink as a command you
+could call from the command line and
+
+272
+00:15:30.420 --> 00:15:32.990
+here I am just pulled
+it out from my history.
+
+273
+00:15:32.990 --> 00:15:35.923
+And basically you say browser-sync and
+you say start, and
+
+274
+00:15:35.923 --> 00:15:37.632
+you want to start the browser sync.
+
+275
+00:15:37.632 --> 00:15:40.070
+And you want to start it in server mode,
+so
+
+276
+00:15:40.070 --> 00:15:42.952
+it'll become like a local HTTP server for
+you.
+
+277
+00:15:42.952 --> 00:15:44.946
+And you could say --directory,
+
+278
+00:15:44.946 --> 00:15:49.346
+all that will do is it will actually give
+you a directory listing of the folder
+
+279
+00:15:49.346 --> 00:15:54.220
+you're sitting in right now, which is
+this case is the folder called site.
+
+280
+00:15:54.220 --> 00:15:59.002
+And then you say --files meaning which
+files should browsersync watch for.
+
+281
+00:15:59.002 --> 00:16:03.331
+And if any of those files change,
+the browsersync will go ahead and
+
+282
+00:16:03.331 --> 00:16:05.970
+reload those things in the browser.
+
+283
+00:16:05.970 --> 00:16:09.190
+So you don't have to keep clicking
+reload over and over and over again.
+
+284
+00:16:09.190 --> 00:16:13.140
+So in this case, we said star, I want to
+reload everything no matter what changes,
+
+285
+00:16:13.140 --> 00:16:15.340
+I want those changes reloaded right away.
+
+286
+00:16:15.340 --> 00:16:17.210
+So I'll go ahead and start it.
+
+287
+00:16:17.210 --> 00:16:21.639
+And once I start that, it will go ahead
+and open up a browser window for me.
+
+288
+00:16:21.639 --> 00:16:25.129
+And in this case you see
+it's localhost port 3000.
+
+289
+00:16:25.129 --> 00:16:29.713
+And since with the --directory, it's
+showing me the directory listing of that
+
+290
+00:16:29.713 --> 00:16:32.378
+folder, which is right
+now is the site folder.
+
+291
+00:16:32.378 --> 00:16:37.271
+So I can click on index right here and I
+can see that it connected to browsersync,
+
+292
+00:16:37.271 --> 00:16:40.050
+and here's this it's a great course.
+
+293
+00:16:40.050 --> 00:16:45.923
+So now what would be really neat is if
+I could now pull this aside that's for
+
+294
+00:16:45.923 --> 00:16:48.883
+a second and open up my Sublime Text.
+
+295
+00:16:48.883 --> 00:16:51.930
+And just show you what happens
+when you actually edit this.
+
+296
+00:16:51.930 --> 00:16:53.465
+So now I can go ahead and
+say, you know what?
+
+297
+00:16:53.465 --> 00:16:55.825
+Let me remove this and I'll remove it.
+
+298
+00:16:55.825 --> 00:16:59.490
+In the second I save it take a look
+at what happens when I save the file.
+
+299
+00:16:59.490 --> 00:17:02.680
+Let's save the file,
+all of a sudden this gets updated as well.
+
+300
+00:17:02.680 --> 00:17:04.130
+So this is extremely convenient.
+
+301
+00:17:04.130 --> 00:17:08.533
+So that means whenever what is going
+on here the cascading style sheets,
+
+302
+00:17:08.533 --> 00:17:09.398
+new content,
+
+303
+00:17:09.398 --> 00:17:14.173
+whatever, it always becomes immediately
+available right there on the page.
+
+304
+00:17:14.173 --> 00:17:16.910
+So you don't have to keep coming
+over here and clicking refresh.
+
+305
+00:17:16.910 --> 00:17:21.950
+That is a huge time saver when you're
+developing and trying to see immediately
+
+306
+00:17:21.950 --> 00:17:26.130
+what's going on on the page without
+having to go and clicking refresh.
+
+307
+00:17:26.130 --> 00:17:26.980
+So that's browsersync.
+
+308
+00:17:26.980 --> 00:17:29.369
+It actually has a million
+other options and
+
+309
+00:17:29.369 --> 00:17:33.025
+I encourage you to go on their website,
+Google for browsersync.
+
+310
+00:17:33.025 --> 00:17:35.553
+And you'll see all
+the options that it has.
+
+311
+00:17:35.553 --> 00:17:38.170
+It's a great development helper tool.
+
+312
+00:17:38.170 --> 00:17:40.910
+So hopefully, you will put it to good use.
+
+313
+00:17:40.910 --> 00:17:44.856
+Okay, in this point your environment is
+all set up and you're ready to move on.
