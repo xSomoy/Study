@@ -1,0 +1,10 @@
+
+<pin>20028619480000119</pin>                <!--Birth Certificate Number-->
+<name>MUSHPHYQUR RAHMAN TANVEER</name>      <!--Name-->
+<DOB>08 Feb 2002</DOB>                      <!--DOB-->
+<FP></FP>
+<F>Right Index</F>                          <!--Info About Which Finger Sig is here-->
+<TYPE>A</TYPE>                              <!--Assume: Data format of Finger print type-->
+<V>2.0</V>                                  <!--Version-->
+                                            <!--Digital Signature of Finger print data-->
+<ds>302d0215008f13c68b214a1cf9e888de15e11f1b537db554b20214538cbaa94ee5185915106dd43a939916cd80c6c5</ds>

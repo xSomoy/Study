@@ -1,0 +1,3 @@
+mail01: piprovider@yandex.com
+username: piprovider
+password: ipprovider666

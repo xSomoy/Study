@@ -1,0 +1,16 @@
+$EmailFrom = “demo@outlook.com”
+
+$EmailTo = “demo@gmail.com”
+
+$Subject = “Test”
+
+$Body = “Tricknology Test”
+
+$SMTPServer = “smtp.outlook.com”
+
+$SMTPClient = New-Object Net.Mail.SmtpClient($SmtpServer, 587)
+
+$SMTPClient.EnableSsl = $true
+
+$SMTPClient.Credentials = New-Object System.Net.NetworkCredential(“demo@outlook.com”, “password”);
+$SMTPClient.Send($EmailFrom, $EmailTo, $Subject, $Body)

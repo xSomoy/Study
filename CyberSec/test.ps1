@@ -1,0 +1,1 @@
+(Invoke-WebRequest ifconfig.me/ip).Content.Trim() >> test2.txt

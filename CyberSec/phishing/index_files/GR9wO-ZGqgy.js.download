@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["jGq7P"]); }
+
+__d("InlineFbtResult",[],(function(a,b,c,d,e,f){a=function(a,b,c,d){"use strict";throw new Error("Not implemented on mobile yet")};e.exports=a}),null);
