@@ -29,15 +29,18 @@ def turn_right():
         turn_left()
 
 def main():
-    while facing_east():
-        if front_is_blocked():
-            pass
-        one_row()
-        turn180()
-        front_clear()
-        turn_right()
-        move()
-        turn_right()
+        while front_is_clear():
+            one_row()
+            turn180()
+            front_clear()
+            turn_right()
+            if front_is_clear():
+                move()
+                turn_right()
+            else:
+                turn_right()
+                front_clear()
+            
    
     
 
