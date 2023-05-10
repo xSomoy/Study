@@ -30,15 +30,14 @@ def turn_right():
 
 def main():
     while facing_east():
+        if front_is_blocked():
+            pass
         one_row()
         turn180()
-        if beepers_present():
-            pass
-        else:
-            front_clear()
-            turn_right()
-            move()
-            turn_right()
+        front_clear()
+        turn_right()
+        move()
+        turn_right()
    
     
 
