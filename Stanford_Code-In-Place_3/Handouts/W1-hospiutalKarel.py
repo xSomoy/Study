@@ -31,8 +31,8 @@ def pile_beepers():
 
 
 def main():
-    while facing_east():
-        pile_beepers()
+    pile_beepers()
+    
  
     
 
