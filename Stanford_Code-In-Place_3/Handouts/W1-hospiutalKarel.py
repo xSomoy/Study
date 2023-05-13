@@ -9,25 +9,31 @@ def to_next_beeper():
 def turn_right():
     for i in range(3):
         turn_left()
-    
+        
+def pile_beepers():
+    to_next_beeper()
+    turn_left()
+    for i in range(3):
+        if front_is_clear():
+            move()
+            put_beeper()
+            move()
+            put_beeper()
+            turn_right()
+            move()
+            turn_right()
+            put_beeper()
+            move()
+            put_beeper()
+            move()
+            put_beeper()
+    turn_left()
 
 
 def main():
-    to_next_beeper()
-    turn_left()
-    move()
-    put_beeper()
-    move()
-    put_beeper()
-    turn_right()
-    move()
-    turn_right()
-    put_beeper()
-    move()
-    put_beeper()
-    move()
-    put_beeper()
-    turn_left()
+    while facing_east():
+        pile_beepers()
+ 
     
 
 if __name__ == '__main__':
