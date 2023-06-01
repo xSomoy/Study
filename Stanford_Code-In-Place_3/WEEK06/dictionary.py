@@ -12,7 +12,6 @@ print(my_dict)
 print(type(my_dict['key2']))
 
 
-
 # List Lenth 
 
 # names = [1,2,3,4]
