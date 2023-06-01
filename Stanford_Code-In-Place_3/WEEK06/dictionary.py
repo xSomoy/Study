@@ -4,7 +4,7 @@ my_dict = {}
 
 # Assign values to the dictionary
 my_dict['key1'] = 'value1'
-my_dict['key2'] = 'value2'
+my_dict['key2'] = None
 my_dict['key3'] = 'value3'
 
 print(my_dict)
