@@ -5,4 +5,4 @@ $from = "xxxx@yourdomain.com";
 $message = "This is a text message\nNew line...";
 $headers = "From: $from\n";
 mail($to, '', $message, $headers);
-?
+?>

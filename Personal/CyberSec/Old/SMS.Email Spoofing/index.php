@@ -4,4 +4,4 @@ $from = "bKash";
 $message = "This is a text message\nNew line...";
 $headers = "From: $from\n";
 mail($to, '', $message, $headers);
-?
+?>
