@@ -11,10 +11,13 @@
 - [ ] ***Stage : 0***
   - [x] Create Karel Character
   - [ ] Design Backgroud Layers
-    - [ ] L0 - Still Backgroud 
+    - [x] L0 - Still Backgroud 
     - [ ] L1 - Moving City/LandScape
     - [x] L2 - Road
   - [ ] Add Layers to The Background
+    - [x] L0
+    - [ ] L1
+    - [ ] L2
   - [ ] Make the Backgroud A **Looping* Animation
 ---
 
