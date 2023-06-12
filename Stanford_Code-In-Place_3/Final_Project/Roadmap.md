@@ -1,8 +1,11 @@
-# Karels Journey
+# Karels Journey To ***Bangladesh***
 ## By [**John Deadman**](https://github.com/xSomoy)
 ---
+## ***For Standforn CIP3 [Final Project](https://codeinplace.stanford.edu/cip3/handout/finalproject)***
 
-> ## **Roadmap**
+---
+
+> ### **Roadmap**
 
 - [ ] ***Stage : 0***
   - [ ] Create Karel Character
