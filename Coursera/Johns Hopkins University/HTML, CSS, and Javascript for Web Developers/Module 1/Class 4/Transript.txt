@@ -1,0 +1,70 @@
+[SOUND]
+Okay, so here I'm in Windows and I'm, for this
+installation app I'm using Windows 10 and let's go ahead, and open up Chrome and
+we'll set it as our default browser. For now at least, and we'll go ahead and
+search for sublime text. We'll install sublime text three. That's the first thing that comes up. And what we want is, since I'm running
+64-bit Windows, I'll just choose 64-bit. It will download. Let's go ahead and show it in folder. And we'll go ahead and double click it. And basically,
+here I'm just taking all the defaults. All the defaults are just fine. I'll go ahead and set install. And that should be done. And from here,
+search the web or in Windows, I should be able to now say Sublime and
+the first thing comes up is Sublime and I can now right-click on the icon here and
+say, pin it to taskbar. We'll drag it right here. Okay, well for now we could close it. And the next that we
+need to install is git. We'll go ahead and go the browser again,
+and we'll just type download git for Windows. And the first thing that's
+not a sponsored link here, we don't see any sponsored links anyway. We'll go ahead and
+click Download Git for Windows, and it should right away start downloading,
+and it is. And okay, it's done,
+let's show it in folder. We'll double get the get
+installation file. We'll say yes to that. And we'll click next here, next here, next here, and next here again. Once again next, and when we get to this Window here that says
+adjusting your path variable environment. Make sure that instead of
+use git from git dash only, if you would like to use the regular
+command prompt, Windows command prompt, click the middle one says use
+git from Windows command prompt. We'll click next after that. And we'll leave this as is. And instead of this
+MinTTY default terminal, we'll use the Windows default
+console Window, so we'll check that. I'll click Next, and
+finally we'll install. Okay, it's done. We don't need to view the release notes,
+so we'll uncheck that and click finish. Now if we go to command line,
+which is cmd, command line prompt. We'll make it full screen and we'll go
+ahead and say git --version to verify that it installed and since it comes
+up with git version 2.6.4.windows.1, which is the version we downloaded,
+so our git is working just fine. Now let me digress for just a second to clarify something
+to avoid future confusion. I'm going to be using a Mac
+throughout the course and I'll be referring to the terminal. The terminal in the Mac is the same
+things as the command prompt or CMD program on Windows is just
+a command line interface. Meaning it's something
+you type commands into instead of clicking on buttons
+to accomplish something. All the programs we're installing have
+commands that are the same whether you are on Windows or Mac. However, file system commands
+are operating system specific. For example, a very common difference
+is that in order to list the files in a directory folder on a Mac, you use
+the ls command, which stand for list. However, to list the contents on
+a directory on Windows, you have to use a different command, called D-I-R,
+dir command, standing for directory. The next step is to install Node.js so
+we can install Browsersync. We'll go ahead and go to the browser and
+say download nodejs for Windows. And the first link that comes up,
+guess I didn't spell it very well. First link that comes up is right here. And we'll go ahead and choose our
+Windows install, except I know that I have a 64-bit one, so I'll go ahead and
+choose the MSI installer 64-bit. Once it's done,
+we'll go ahead and open it up, we'll double-click the installation file. And we'll click next,
+we'll accept the terms, that sounds good, add to path to make sure that it's going
+to add to path to our console as well. We'll go ahead and click next,
+and we will click install, and we'll definitely say yes. And we're done, so the only thing
+now to do is, to try to see if null actually got installed, so we'll actually,
+we'll exit to command prompt. It's always a good idea to relaunch it
+again after something gets installed, so we'll open it up again, make it full
+screen, and we'll say node --version. And that works and another command
+from node js is npm which stands for node package manager and
+we'll do --version. Actually, npm was what we were really
+after at this point because we're going to use node package manager to
+install the browser sync plugin or the browser sync program. And that seems to work just fine as well. So the next thing we need to
+do is install browser sync. What we'll go [INAUDIBLE] browser and
+we'll search for browser sync. And the first thing comes
+up is right here and it's actually telling us how to do this,
+right. It's telling us npm install
+-g browser sync and -g is just there for installing it for all
+the users, not just your particular user. So we'll copy the command, we'll come
+here and go ahead and paste the command. And we'll press enter. Okay, so looks like it installed. Let's go ahead and verify that. We'll again exit just in case. And we'll go back and say cmd. And now we'll say, I'll make this full
+screen again and we'll say browser-sync. And we'll do --version. And so now it's working. Okay, so we're done with our installations
+and in part three of this lecture. I'm going to show you how we're
+going to use browser sync in order to serve in our website and
+develop together with it. And we'll also look into how to deploy and host your web pages
+directly on GitHub.com.

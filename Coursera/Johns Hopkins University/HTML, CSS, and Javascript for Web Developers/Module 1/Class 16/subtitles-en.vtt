@@ -1,0 +1,456 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:02.724
+[MUSIC]
+
+2
+00:00:05.964 --> 00:00:11.260
+Perhaps nothing enhances a website
+better than strategically placed images.
+
+3
+00:00:11.260 --> 00:00:15.780
+In this lecture we will learn how to
+include images in your HTML documents.
+
+4
+00:00:17.090 --> 00:00:20.167
+Okay, so we're looking at images.html,
+
+5
+00:00:20.167 --> 00:00:24.002
+which is located in
+the examples Lecture10 folder.
+
+6
+00:00:24.002 --> 00:00:28.790
+And you may recognize this file from
+a few lectures ago where this is a famous
+
+7
+00:00:28.790 --> 00:00:31.330
+quote from Theodore Roosevelt.
+
+8
+00:00:31.330 --> 00:00:34.270
+And, by the way, I apologize,
+I made a typo before.
+
+9
+00:00:34.270 --> 00:00:36.060
+Theodore Roosevelt is spelled with an E.
+
+10
+00:00:36.060 --> 00:00:40.233
+So for you eagle eyes out there who
+noticed that I misspelled Theodore I
+
+11
+00:00:40.233 --> 00:00:41.320
+apologize.
+
+12
+00:00:41.320 --> 00:00:42.530
+It was just a typo.
+
+13
+00:00:42.530 --> 00:00:48.540
+Anyway our task here is to display
+an image right before the quote itself.
+
+14
+00:00:48.540 --> 00:00:50.840
+And we actually have
+a couple of images here.
+
+15
+00:00:50.840 --> 00:00:54.620
+And since I wanted to start with one,
+let me comment this one out, and
+
+16
+00:00:54.620 --> 00:00:58.160
+at the same time show you what
+an HTML comment looks like.
+
+17
+00:00:58.160 --> 00:01:03.170
+And it's pretty simple, it starts with
+a less than bracket, exclamation point,
+
+18
+00:01:03.170 --> 00:01:08.970
+dash, dash, and then it gets closed
+with a dash, dash, right angle bracket.
+
+19
+00:01:08.970 --> 00:01:12.010
+And what will happen when you
+load this page into the browser
+
+20
+00:01:12.010 --> 00:01:17.130
+Is that the browser will completely ignore
+this comment and will not render it.
+
+21
+00:01:17.130 --> 00:01:21.400
+So let's take a look at the image
+tag that we wanted to discuss.
+
+22
+00:01:21.400 --> 00:01:26.919
+The image is displayed in HTML using this
+img tag which is just short for image.
+
+23
+00:01:26.919 --> 00:01:33.850
+And the src attribute of the img tag is
+a URL that points to some image file.
+
+24
+00:01:33.850 --> 00:01:38.371
+Now this URL is no different
+than the href that you've seen
+
+25
+00:01:38.371 --> 00:01:40.592
+with the regular link A tag.
+
+26
+00:01:40.592 --> 00:01:42.723
+It could be a relative URL, or
+
+27
+00:01:42.723 --> 00:01:47.900
+it can be an absolute URL,
+even one that contains an external link.
+
+28
+00:01:47.900 --> 00:01:51.430
+Next, we specifiy the width and
+the height of the image.
+
+29
+00:01:51.430 --> 00:01:53.750
+While not absolutely required,
+
+30
+00:01:53.750 --> 00:01:57.560
+it's a really good idea to always
+specify the width and the height.
+
+31
+00:01:57.560 --> 00:02:00.460
+And I will demonstrate to you
+in a few minutes why that is.
+
+32
+00:02:00.460 --> 00:02:04.130
+And also the alt tag which
+is used by screen readers
+
+33
+00:02:04.130 --> 00:02:06.500
+that help people with visual impairment.
+
+34
+00:02:06.500 --> 00:02:09.430
+Let's save the document and
+take a look at it in the browser.
+
+35
+00:02:12.480 --> 00:02:16.976
+As you could see, this is the image
+that we included in our HTML.
+
+36
+00:02:16.976 --> 00:02:21.057
+The interesting part here is that
+it appears as if it's another
+
+37
+00:02:21.057 --> 00:02:22.905
+character within our text,
+
+38
+00:02:22.905 --> 00:02:27.630
+which should right away tell you that
+an img tag is an inline element.
+
+39
+00:02:27.630 --> 00:02:31.050
+If it weren't,
+the image would be on its own line,
+
+40
+00:02:31.050 --> 00:02:34.000
+pushing everything behind
+it onto a new line.
+
+41
+00:02:34.000 --> 00:02:37.388
+Next let's take a look at the other
+img tag and uncomment it so
+
+42
+00:02:37.388 --> 00:02:39.668
+we could use it within our page.
+
+43
+00:02:39.668 --> 00:02:44.710
+As you could see this is an external
+link pointing to some image on the web.
+
+44
+00:02:44.710 --> 00:02:47.320
+Let's save the file and
+preview it in the browser again.
+
+45
+00:02:48.450 --> 00:02:49.128
+Let's reload it.
+
+46
+00:02:49.128 --> 00:02:55.480
+As you could see, we get this image of, I
+think ants, crawling on a blade of grass.
+
+47
+00:02:55.480 --> 00:02:58.310
+It's very often the case
+that you use images
+
+48
+00:02:58.310 --> 00:03:02.610
+as sort of these anchors within
+your visual layout of your page.
+
+49
+00:03:02.610 --> 00:03:07.420
+And if this images take time to load,
+the page might appear jumpy.
+
+50
+00:03:07.420 --> 00:03:12.160
+So this is actually the primary reason
+why you would want to use the width and
+
+51
+00:03:12.160 --> 00:03:13.530
+the height of the image.
+
+52
+00:03:13.530 --> 00:03:16.350
+You want to tell the browser
+to reserve this space and
+
+53
+00:03:16.350 --> 00:03:21.310
+to visually partition your page such that
+it knows that there should be something
+
+54
+00:03:21.310 --> 00:03:24.380
+going on in there even if
+it takes time to load it.
+
+55
+00:03:24.380 --> 00:03:29.110
+So let's simulate what would happen to
+our layout if we removed the width and
+
+56
+00:03:29.110 --> 00:03:31.210
+the height from this image.
+
+57
+00:03:31.210 --> 00:03:34.180
+Let's go ahead and save it,
+go to our webpage.
+
+58
+00:03:34.180 --> 00:03:38.369
+And instead of just reloading it, since
+our Internet or at least my Internet is
+
+59
+00:03:38.369 --> 00:03:42.062
+pretty fast here, I'm going to
+simulate Internet being very slow.
+
+60
+00:03:42.062 --> 00:03:47.067
+And we'll see how the fact that this
+paragraph and this paragraph is visually
+
+61
+00:03:47.067 --> 00:03:51.880
+separated by this image is not
+necessarily going to happen right away.
+
+62
+00:03:51.880 --> 00:03:53.170
+And we'll see some jumping.
+
+63
+00:03:53.170 --> 00:03:55.830
+But the way we're going to
+accomplish that is by bringing up
+
+64
+00:03:55.830 --> 00:03:57.550
+the Chrome developer tools.
+
+65
+00:03:57.550 --> 00:04:02.229
+And I'm on the Mac so
+I'm going to press Option+Cmd+I.
+
+66
+00:04:02.229 --> 00:04:07.870
+And if you're in Windows,
+I believe it's Ctrl+Option or Ctrl+Alt+I.
+
+67
+00:04:07.870 --> 00:04:10.136
+And I'm going to go to the Network tab.
+
+68
+00:04:10.136 --> 00:04:13.490
+And if you notice here,
+there is a throttling setting here.
+
+69
+00:04:13.490 --> 00:04:14.620
+And it says No throttling.
+
+70
+00:04:14.620 --> 00:04:19.730
+What I'm going to change that to,
+the lowest possible setting.
+
+71
+00:04:19.730 --> 00:04:22.600
+And now I'm going to go ahead and
+reload the page.
+
+72
+00:04:22.600 --> 00:04:27.850
+And watch what happens in
+terms of this space between
+
+73
+00:04:27.850 --> 00:04:31.730
+the Theodore Roosevelt and
+the actual quote.
+
+74
+00:04:31.730 --> 00:04:33.140
+So let's go ahead and reload the page.
+
+75
+00:04:34.430 --> 00:04:36.410
+And noticed how it jumped.
+
+76
+00:04:36.410 --> 00:04:41.720
+The first there was Theodore Roosevelt
+was right next to the quote,
+
+77
+00:04:41.720 --> 00:04:44.010
+and then once the image
+loaded it jumped in.
+
+78
+00:04:44.010 --> 00:04:48.130
+And the reason that happened was because
+the browser did not up front know
+
+79
+00:04:48.130 --> 00:04:50.360
+how large the image was going to be.
+
+80
+00:04:50.360 --> 00:04:53.030
+Even worse if you're relying on the image
+
+81
+00:04:53.030 --> 00:04:56.470
+to give some sort of a visual
+layout to your page and for
+
+82
+00:04:56.470 --> 00:05:00.900
+some reason the image did not load,
+for example the URL could be broken.
+
+83
+00:05:00.900 --> 00:05:05.340
+So let me go ahead and break it just by
+removing a couple of letters from the URL.
+
+84
+00:05:05.340 --> 00:05:09.624
+And if URL is broken, this is what
+you're going to get if you don't specify
+
+85
+00:05:09.624 --> 00:05:11.950
+the width and the height of the image.
+
+86
+00:05:11.950 --> 00:05:16.590
+Let's go back to our page and
+let's click reload, and there you go.
+
+87
+00:05:16.590 --> 00:05:22.530
+If we relied on a specific amount of
+space between the quote and the footer
+
+88
+00:05:22.530 --> 00:05:27.620
+of this page, well we can no longer see
+that space since the image did not load.
+
+89
+00:05:27.620 --> 00:05:34.410
+However, if we go back and
+undo this and still break the URL, yet
+
+90
+00:05:34.410 --> 00:05:39.700
+specifying the width and the height of the
+image, let's go back and reload the page.
+
+91
+00:05:40.750 --> 00:05:45.890
+You'll see that even though the image
+is not loading, the visual spacing and
+
+92
+00:05:45.890 --> 00:05:50.070
+the visual layout remains
+correct as we intended it to be.
+
+93
+00:05:51.860 --> 00:05:55.640
+So to summarize,
+images can truly enhance your website,
+
+94
+00:05:55.640 --> 00:05:57.530
+especially if you use them correctly.
+
+95
+00:05:57.530 --> 00:06:03.314
+And remember to always specify width and
+height of the image tag whenever possible,
+
+96
+00:06:03.314 --> 00:06:06.667
+because without it,
+it may break your layouts.

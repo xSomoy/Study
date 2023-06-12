@@ -1,0 +1,486 @@
+WEBVTT
+
+1
+00:00:00.012 --> 00:00:07.268
+[SOUND]
+Okay,
+
+2
+00:00:07.268 --> 00:00:11.735
+so here I'm in Windows and I'm, for this
+installation app I'm using Windows 10 and
+
+3
+00:00:11.735 --> 00:00:16.450
+let's go ahead, and open up Chrome and
+we'll set it as our default browser.
+
+4
+00:00:16.450 --> 00:00:21.200
+For now at least, and we'll go ahead and
+search for sublime text.
+
+5
+00:00:21.200 --> 00:00:23.450
+We'll install sublime text three.
+
+6
+00:00:24.920 --> 00:00:26.770
+That's the first thing that comes up.
+
+7
+00:00:26.770 --> 00:00:31.930
+And what we want is, since I'm running
+64-bit Windows, I'll just choose 64-bit.
+
+8
+00:00:31.930 --> 00:00:32.630
+It will download.
+
+9
+00:00:32.630 --> 00:00:36.061
+Let's go ahead and show it in folder.
+
+10
+00:00:38.278 --> 00:00:40.950
+And we'll go ahead and double click it.
+
+11
+00:00:40.950 --> 00:00:43.860
+And basically,
+here I'm just taking all the defaults.
+
+12
+00:00:43.860 --> 00:00:45.140
+All the defaults are just fine.
+
+13
+00:00:45.140 --> 00:00:47.260
+I'll go ahead and set install.
+
+14
+00:00:48.760 --> 00:00:50.360
+And that should be done.
+
+15
+00:00:50.360 --> 00:00:52.982
+And from here,
+search the web or in Windows,
+
+16
+00:00:52.982 --> 00:00:57.329
+I should be able to now say Sublime and
+the first thing comes up is Sublime and
+
+17
+00:00:57.329 --> 00:01:01.210
+I can now right-click on the icon here and
+say, pin it to taskbar.
+
+18
+00:01:02.420 --> 00:01:03.570
+We'll drag it right here.
+
+19
+00:01:04.760 --> 00:01:06.860
+Okay, well for now we could close it.
+
+20
+00:01:06.860 --> 00:01:08.920
+And the next that we
+need to install is git.
+
+21
+00:01:08.920 --> 00:01:13.640
+We'll go ahead and go the browser again,
+and we'll just type download git for
+
+22
+00:01:13.640 --> 00:01:14.320
+Windows.
+
+23
+00:01:16.080 --> 00:01:18.350
+And the first thing that's
+not a sponsored link here,
+
+24
+00:01:18.350 --> 00:01:20.490
+we don't see any sponsored links anyway.
+
+25
+00:01:20.490 --> 00:01:23.400
+We'll go ahead and
+click Download Git for Windows, and
+
+26
+00:01:23.400 --> 00:01:26.530
+it should right away start downloading,
+and it is.
+
+27
+00:01:26.530 --> 00:01:28.710
+And okay, it's done,
+let's show it in folder.
+
+28
+00:01:28.710 --> 00:01:31.100
+We'll double get the get
+installation file.
+
+29
+00:01:31.100 --> 00:01:32.660
+We'll say yes to that.
+
+30
+00:01:32.660 --> 00:01:37.037
+And we'll click next here, next here,
+
+31
+00:01:37.037 --> 00:01:40.650
+next here, and next here again.
+
+32
+00:01:41.650 --> 00:01:42.530
+Once again next, and
+
+33
+00:01:42.530 --> 00:01:46.900
+when we get to this Window here that says
+adjusting your path variable environment.
+
+34
+00:01:46.900 --> 00:01:49.530
+Make sure that instead of
+use git from git dash only,
+
+35
+00:01:49.530 --> 00:01:53.650
+if you would like to use the regular
+command prompt, Windows command prompt,
+
+36
+00:01:53.650 --> 00:01:56.500
+click the middle one says use
+git from Windows command prompt.
+
+37
+00:01:56.500 --> 00:01:57.710
+We'll click next after that.
+
+38
+00:01:58.870 --> 00:02:00.950
+And we'll leave this as is.
+
+39
+00:02:00.950 --> 00:02:03.210
+And instead of this
+MinTTY default terminal,
+
+40
+00:02:03.210 --> 00:02:07.020
+we'll use the Windows default
+console Window, so we'll check that.
+
+41
+00:02:07.020 --> 00:02:10.110
+I'll click Next, and
+finally we'll install.
+
+42
+00:02:13.190 --> 00:02:14.290
+Okay, it's done.
+
+43
+00:02:14.290 --> 00:02:18.540
+We don't need to view the release notes,
+so we'll uncheck that and click finish.
+
+44
+00:02:18.540 --> 00:02:22.800
+Now if we go to command line,
+which is cmd, command line prompt.
+
+45
+00:02:22.800 --> 00:02:27.970
+We'll make it full screen and we'll go
+ahead and say git --version to verify
+
+46
+00:02:27.970 --> 00:02:34.260
+that it installed and since it comes
+up with git version 2.6.4.windows.1,
+
+47
+00:02:34.260 --> 00:02:39.040
+which is the version we downloaded,
+so our git is working just fine.
+
+48
+00:02:39.040 --> 00:02:40.070
+Now let me digress for
+
+49
+00:02:40.070 --> 00:02:44.020
+just a second to clarify something
+to avoid future confusion.
+
+50
+00:02:44.020 --> 00:02:46.560
+I'm going to be using a Mac
+throughout the course and
+
+51
+00:02:46.560 --> 00:02:48.710
+I'll be referring to the terminal.
+
+52
+00:02:48.710 --> 00:02:52.610
+The terminal in the Mac is the same
+things as the command prompt or
+
+53
+00:02:52.610 --> 00:02:57.280
+CMD program on Windows is just
+a command line interface.
+
+54
+00:02:57.280 --> 00:02:59.710
+Meaning it's something
+you type commands into
+
+55
+00:02:59.710 --> 00:03:02.760
+instead of clicking on buttons
+to accomplish something.
+
+56
+00:03:02.760 --> 00:03:06.990
+All the programs we're installing have
+commands that are the same whether you
+
+57
+00:03:06.990 --> 00:03:08.870
+are on Windows or Mac.
+
+58
+00:03:08.870 --> 00:03:13.470
+However, file system commands
+are operating system specific.
+
+59
+00:03:13.470 --> 00:03:17.880
+For example, a very common difference
+is that in order to list the files in
+
+60
+00:03:17.880 --> 00:03:23.780
+a directory folder on a Mac, you use
+the ls command, which stand for list.
+
+61
+00:03:23.780 --> 00:03:28.202
+However, to list the contents on
+a directory on Windows, you have to use
+
+62
+00:03:28.202 --> 00:03:33.143
+a different command, called D-I-R,
+dir command, standing for directory.
+
+63
+00:03:35.024 --> 00:03:40.360
+The next step is to install Node.js so
+we can install Browsersync.
+
+64
+00:03:40.360 --> 00:03:48.140
+We'll go ahead and go to the browser and
+say download nodejs for Windows.
+
+65
+00:03:50.669 --> 00:03:54.640
+And the first link that comes up,
+guess I didn't spell it very well.
+
+66
+00:03:54.640 --> 00:03:56.520
+First link that comes up is right here.
+
+67
+00:03:56.520 --> 00:03:59.925
+And we'll go ahead and choose our
+Windows install, except I know that I
+
+68
+00:03:59.925 --> 00:04:03.814
+have a 64-bit one, so I'll go ahead and
+choose the MSI installer 64-bit.
+
+69
+00:04:05.521 --> 00:04:07.827
+Once it's done,
+we'll go ahead and open it up,
+
+70
+00:04:07.827 --> 00:04:10.095
+we'll double-click the installation file.
+
+71
+00:04:11.221 --> 00:04:15.762
+And we'll click next,
+we'll accept the terms, that sounds good,
+
+72
+00:04:15.762 --> 00:04:20.790
+add to path to make sure that it's going
+to add to path to our console as well.
+
+73
+00:04:20.790 --> 00:04:25.090
+We'll go ahead and click next,
+and we will click install, and
+
+74
+00:04:25.090 --> 00:04:26.490
+we'll definitely say yes.
+
+75
+00:04:28.500 --> 00:04:32.980
+And we're done, so the only thing
+now to do is, to try to see if null
+
+76
+00:04:32.980 --> 00:04:36.370
+actually got installed, so we'll actually,
+we'll exit to command prompt.
+
+77
+00:04:36.370 --> 00:04:41.190
+It's always a good idea to relaunch it
+again after something gets installed, so
+
+78
+00:04:41.190 --> 00:04:46.647
+we'll open it up again, make it full
+screen, and we'll say node --version.
+
+79
+00:04:47.920 --> 00:04:52.940
+And that works and another command
+from node js is npm which stands for
+
+80
+00:04:52.940 --> 00:04:56.050
+node package manager and
+we'll do --version.
+
+81
+00:04:56.050 --> 00:04:59.530
+Actually, npm was what we were really
+after at this point because we're going to
+
+82
+00:04:59.530 --> 00:05:03.770
+use node package manager to
+install the browser sync plugin or
+
+83
+00:05:03.770 --> 00:05:05.550
+the browser sync program.
+
+84
+00:05:05.550 --> 00:05:07.530
+And that seems to work just fine as well.
+
+85
+00:05:07.530 --> 00:05:09.600
+So the next thing we need to
+do is install browser sync.
+
+86
+00:05:09.600 --> 00:05:13.460
+What we'll go [INAUDIBLE] browser and
+we'll search for browser sync.
+
+87
+00:05:14.690 --> 00:05:17.590
+And the first thing comes
+up is right here and
+
+88
+00:05:17.590 --> 00:05:19.590
+it's actually telling us how to do this,
+right.
+
+89
+00:05:19.590 --> 00:05:23.548
+It's telling us npm install
+-g browser sync and
+
+90
+00:05:23.548 --> 00:05:29.070
+-g is just there for installing it for all
+the users, not just your particular user.
+
+91
+00:05:29.070 --> 00:05:32.710
+So we'll copy the command, we'll come
+here and go ahead and paste the command.
+
+92
+00:05:32.710 --> 00:05:34.140
+And we'll press enter.
+
+93
+00:05:36.880 --> 00:05:38.210
+Okay, so looks like it installed.
+
+94
+00:05:38.210 --> 00:05:40.400
+Let's go ahead and verify that.
+
+95
+00:05:40.400 --> 00:05:42.430
+We'll again exit just in case.
+
+96
+00:05:42.430 --> 00:05:44.360
+And we'll go back and say cmd.
+
+97
+00:05:45.360 --> 00:05:52.659
+And now we'll say, I'll make this full
+screen again and we'll say browser-sync.
+
+98
+00:05:53.890 --> 00:05:55.360
+And we'll do --version.
+
+99
+00:05:56.760 --> 00:05:58.100
+And so now it's working.
+
+100
+00:05:58.100 --> 00:06:01.530
+Okay, so we're done with our installations
+and in part three of this lecture.
+
+101
+00:06:01.530 --> 00:06:04.310
+I'm going to show you how we're
+going to use browser sync
+
+102
+00:06:04.310 --> 00:06:07.990
+in order to serve in our website and
+develop together with it.
+
+103
+00:06:07.990 --> 00:06:10.905
+And we'll also look into how to deploy and
+
+104
+00:06:10.905 --> 00:06:14.166
+host your web pages
+directly on GitHub.com.

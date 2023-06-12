@@ -1,0 +1,497 @@
+WEBVTT
+
+1
+00:00:00.029 --> 00:00:06.305
+[SOUND] The term content model refers
+to the full behavior the browser
+
+2
+00:00:06.305 --> 00:00:11.701
+applies to the elements
+belonging to that content model,
+
+3
+00:00:11.701 --> 00:00:15.791
+and to the nesting rules
+of those elements.
+
+4
+00:00:15.791 --> 00:00:20.340
+In other words, which elements are allowed
+to be nested inside which other elements.
+
+5
+00:00:20.340 --> 00:00:25.240
+Prior to HTML5 specification,
+HTML elements were either block level or
+
+6
+00:00:25.240 --> 00:00:26.710
+inline elements.
+
+7
+00:00:26.710 --> 00:00:31.820
+HTML5 split these two content
+models into seven models.
+
+8
+00:00:31.820 --> 00:00:34.960
+So, things got a bit more complicated.
+
+9
+00:00:34.960 --> 00:00:37.150
+Let me go over the two
+traditional models anyway.
+
+10
+00:00:37.150 --> 00:00:40.020
+And I will explain in
+a moment why I am doing that.
+
+11
+00:00:40.020 --> 00:00:43.210
+All elements fall into
+basically two categories
+
+12
+00:00:43.210 --> 00:00:46.190
+under the traditional
+content model structure.
+
+13
+00:00:46.190 --> 00:00:49.270
+Either block level elements or
+inline elements.
+
+14
+00:00:49.270 --> 00:00:53.100
+Block level elements render to
+begin on the new line by default.
+
+15
+00:00:53.100 --> 00:00:57.900
+You could change that with CSS but we're
+not talking about CSS at this point, yet.
+
+16
+00:00:57.900 --> 00:01:02.880
+So what that means is every
+time you specify a block-level
+
+17
+00:01:02.880 --> 00:01:07.830
+element in HTML, the browser will
+automatically place that element
+
+18
+00:01:07.830 --> 00:01:09.975
+on a new line in the flow of the document.
+
+19
+00:01:09.975 --> 00:01:14.450
+Block-level elements are allowed
+to contain inline or
+
+20
+00:01:14.450 --> 00:01:16.570
+other block-level elements within them.
+
+21
+00:01:16.570 --> 00:01:22.150
+This is in contrast to inline elements,
+which render on the same line by default.
+
+22
+00:01:22.150 --> 00:01:25.540
+Again you can change that, but
+by default it renders on the same line.
+
+23
+00:01:25.540 --> 00:01:29.410
+Which means if you put a whole bunch of
+in line elements next to each other, they
+
+24
+00:01:29.410 --> 00:01:34.390
+will all be going on on the same line, as
+if there is no new line character present.
+
+25
+00:01:35.445 --> 00:01:38.950
+Inline elements also have
+a restriction that they can only
+
+26
+00:01:38.950 --> 00:01:41.130
+contain other in line elements.
+
+27
+00:01:41.130 --> 00:01:41.720
+In other words,
+
+28
+00:01:41.720 --> 00:01:46.410
+an inline element cannot have as part
+of its content a block level element.
+
+29
+00:01:47.640 --> 00:01:50.390
+Now I told you that HTML5
+really replaces these
+
+30
+00:01:50.390 --> 00:01:53.430
+definitions with a more complex
+set of content categories.
+
+31
+00:01:53.430 --> 00:01:55.430
+So why are we going over them now?
+
+32
+00:01:55.430 --> 00:01:59.140
+Well the reason we're going over
+them now is because this distinction
+
+33
+00:01:59.140 --> 00:02:03.780
+between block level elements and
+inline elements remains pretty practical.
+
+34
+00:02:03.780 --> 00:02:07.076
+Because it aligns very well
+with still existing CSS rules.
+
+35
+00:02:07.076 --> 00:02:12.200
+So even though HTML5 came up
+with new content model names and
+
+36
+00:02:12.200 --> 00:02:15.790
+new sub categories, and
+just new way to break them down.
+
+37
+00:02:15.790 --> 00:02:18.915
+At the end of the day,
+you could still look at all of these,
+
+38
+00:02:18.915 --> 00:02:22.745
+as far as your coding is concerned, as
+block-level elements and inline elements.
+
+39
+00:02:22.745 --> 00:02:26.475
+Obviously, it's a little bit of
+an over-simplification, but it works.
+
+40
+00:02:26.475 --> 00:02:31.045
+And just to be kind of complete,
+block-level elements roughly translate
+
+41
+00:02:31.045 --> 00:02:36.185
+into the new HTML5 category of
+flow content, and inline elements
+
+42
+00:02:36.185 --> 00:02:42.740
+roughly translate into the HTML5
+category of phrasing content.
+
+43
+00:02:42.740 --> 00:02:46.540
+So let's go look at some code that
+will demonstrate these concepts.
+
+44
+00:02:46.540 --> 00:02:50.510
+Demonstrate the difference between
+block-level elements and inline elements,
+
+45
+00:02:50.510 --> 00:02:55.260
+we're going to take look at an HTML
+document called div and span the HTML.
+
+46
+00:02:55.260 --> 00:02:59.255
+It's look Located in
+the examples Lecture05 folder.
+
+47
+00:02:59.255 --> 00:03:03.915
+Perhaps the most generic elements
+in each category are the div and
+
+48
+00:03:03.915 --> 00:03:05.275
+the span elements.
+
+49
+00:03:05.275 --> 00:03:08.045
+And these are the elements we're
+going to introduce in this document.
+
+50
+00:03:09.045 --> 00:03:14.250
+The div element stands for division,
+and the span element stands for span.
+
+51
+00:03:14.250 --> 00:03:18.010
+The div element is your most
+generic block-level element, and
+
+52
+00:03:18.010 --> 00:03:21.550
+the span is your super generic,
+inline element.
+
+53
+00:03:21.550 --> 00:03:23.640
+So let's go over this document real quick.
+
+54
+00:03:23.640 --> 00:03:27.040
+We have a couple of divs following
+one after the other, DIV 1 and DIV 2.
+
+55
+00:03:27.040 --> 00:03:30.670
+Then, there's a span
+element that follows DIV 2.
+
+56
+00:03:30.670 --> 00:03:34.700
+And the number 3 div is a little
+bit more complex in that
+
+57
+00:03:34.700 --> 00:03:38.230
+it includes a span element inside of it.
+
+58
+00:03:38.230 --> 00:03:41.750
+So let's take a look at what
+this looks like in a browser.
+
+59
+00:03:41.750 --> 00:03:45.790
+So you can see the DIV 1 element
+is all by itself on its own line.
+
+60
+00:03:45.790 --> 00:03:49.540
+And so is DIV 2 element,
+all by itself on its own line.
+
+61
+00:03:49.540 --> 00:03:56.210
+Now the Span 1 was a tag, an element,
+that followed directly after DIV 2.
+
+62
+00:03:56.210 --> 00:03:59.540
+And even though span is an inline element,
+
+63
+00:03:59.540 --> 00:04:03.370
+since DIV 2 requires that
+it be on it's own line.
+
+64
+00:04:03.370 --> 00:04:07.550
+It pushes the next inline element
+to it's own line as well.
+
+65
+00:04:07.550 --> 00:04:09.800
+And this is exactly what
+happens with DIV 3.
+
+66
+00:04:09.800 --> 00:04:11.630
+Even though span is an inline element,
+
+67
+00:04:11.630 --> 00:04:17.080
+technically speaking the tags shouldn't
+go anywhere but right behind SPAN 1.
+
+68
+00:04:17.080 --> 00:04:21.670
+But since DIV 3 is a block level
+element it requires it's own line so
+
+69
+00:04:21.670 --> 00:04:25.570
+it's get pushed to the next
+line to be by itself.
+
+70
+00:04:25.570 --> 00:04:29.470
+Now the spin two tag is sitting
+inside the div three and
+
+71
+00:04:29.470 --> 00:04:33.620
+since it's an inline element it
+doesn't cause any more formatting And
+
+72
+00:04:33.620 --> 00:04:37.750
+it just sits right here inside the DIV
+3 without requiring a new line.
+
+73
+00:04:39.000 --> 00:04:44.020
+So just there's no confusion, the new
+line characters that follow the div tags
+
+74
+00:04:44.020 --> 00:04:49.040
+make absolutely no difference to
+the html page and how it renders.
+
+75
+00:04:49.040 --> 00:04:52.900
+I could remove all the new line
+characters, save the document, and
+
+76
+00:04:52.900 --> 00:04:54.390
+preview it in the browser.
+
+77
+00:04:54.390 --> 00:04:57.450
+Again, and as you could see
+in terms of formatting, and
+
+78
+00:04:57.450 --> 00:05:00.590
+in terms of requiring new lines,
+nothing gets changed.
+
+79
+00:05:02.380 --> 00:05:06.814
+As the last step,
+let's try to take the code from our page,
+
+80
+00:05:06.814 --> 00:05:10.458
+copy it, and
+validate it in the W3C validator.
+
+81
+00:05:14.098 --> 00:05:16.820
+As you can see, the page is valid.
+
+82
+00:05:16.820 --> 00:05:20.830
+But what happens if I go ahead and,
+right inside our validator,
+
+83
+00:05:20.830 --> 00:05:25.770
+add another div tag right inside
+the span tag with some content.
+
+84
+00:05:25.770 --> 00:05:29.410
+And I'll close the div tag,
+and let's check the page.
+
+85
+00:05:31.370 --> 00:05:36.310
+And now you can see it's complaining that
+element div not allowed is a child of span
+
+86
+00:05:36.310 --> 00:05:41.010
+element and it's context, and it's telling
+you the context in which div element might
+
+87
+00:05:41.010 --> 00:05:47.240
+be used is flow content and content model
+of span element is phrasing content.
+
+88
+00:05:47.240 --> 00:05:51.680
+And again phrasing content roughly
+translates into inline content.
+
+89
+00:05:51.680 --> 00:05:55.460
+And flow content roughly translates
+into block level content.
+
+90
+00:05:56.860 --> 00:06:00.530
+I'll provide a couple of URL's for
+you to explore a little bit further
+
+91
+00:06:00.530 --> 00:06:05.160
+into different categories of
+the HTML5 content models.
+
+92
+00:06:05.160 --> 00:06:11.740
+But I'd like to demo one real quick, and
+that is the W3C kinds of content section,
+
+93
+00:06:11.740 --> 00:06:16.760
+where it basically lists the seven
+types of content that HTML5 defines.
+
+94
+00:06:16.760 --> 00:06:20.780
+What's cool about this page is that
+you could roll over different parts
+
+95
+00:06:20.780 --> 00:06:24.410
+of this graphic and
+you could see all the different elements
+
+96
+00:06:24.410 --> 00:06:29.620
+that belong to this particular
+HTML5 content model category.
+
+97
+00:06:29.620 --> 00:06:34.880
+So to summarize, we compared block
+level and inline content types and
+
+98
+00:06:34.880 --> 00:06:38.740
+which we know are not part of
+the official HTML5 classification.
+
+99
+00:06:38.740 --> 00:06:43.410
+But they're still used quite often in
+literature and just in the regular coding
+
+100
+00:06:43.410 --> 00:06:48.840
+and they're roughly equivalent to flow
+content and phrasing content respectively.
+
+101
+00:06:49.840 --> 00:06:52.031
+Next we're going to
+talk about headings and
+
+102
+00:06:52.031 --> 00:06:55.108
+we're going to explore some
+new HTML5 semantic elements.
