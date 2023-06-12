@@ -1,4 +1,4 @@
-# Character Position S0-2.2
+# bg_L2-S0-2.2
 
 from graphics import Canvas
 
