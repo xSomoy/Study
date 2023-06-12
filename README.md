@@ -1,5 +1,4 @@
-# Study
-Personal Study
+# Learning By Will
 <!-- visitor counter -->
 <table aligh="center">
   <tr>
@@ -7,3 +6,7 @@ Personal Study
     <td><img src="https://profile-counter.glitch.me/xsomoy/count.svg" alt="xSomoy" /></td>
   </tr>
 </table>
+
+> Might Update Later  
+
+` - John Deadman `
