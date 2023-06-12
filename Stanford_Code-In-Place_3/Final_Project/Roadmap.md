@@ -9,7 +9,7 @@
 > ### **Roadmap**
 
 - [ ] ***Stage : 0***
-  - [ ] Create Karel Character
+  - [x] Create Karel Character
   - [ ] Add A Backgrond to the Canvas
   - [ ] Make the Backgroud A **Looping* Animation
 ---
