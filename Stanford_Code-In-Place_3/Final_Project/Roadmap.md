@@ -10,7 +10,11 @@
 
 - [ ] ***Stage : 0***
   - [x] Create Karel Character
-  - [ ] Add A Backgrond to the Canvas
+  - [ ] Design Backgroud Layers
+    - [ ] L0 - Still Backgroud 
+    - [ ] L1 - Moving City/LandScape
+    - [x] L2 - Road
+  - [ ] Add Layers to The Background
   - [ ] Make the Backgroud A **Looping* Animation
 ---
 
@@ -22,7 +26,16 @@
 ---
 
 - [ ] ***Stage : 2***
-  - [ ] Still thinking 😅
+  - [ ] Design Obstechale
+    - [ ] Obstechale 0 : Brick
+    - [ ] Obstechale 1 : Stone
+    - [ ] Obstechale 2 : Puddle / Water
+  - [ ] Display Obstechale
+
+---
+
+- [ ] ***Stage : 3***
+  - [ ] Thnking 🤔🤔🤔
 
 ---
 ## ***Some Useless $hit***
