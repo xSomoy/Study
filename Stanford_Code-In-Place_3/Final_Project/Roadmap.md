@@ -2,26 +2,26 @@
 ## By [**John Deadman**](https://github.com/xSomoy)
 ---
 
-## **Roadmap**
+> ## **Roadmap**
 
-- [ ] **Stage : 0**
+- [ ] ***Stage : 0***
   - [ ] Create Karel Character
   - [ ] Add A Backgrond to the Canvas
   - [ ] Make the Backgroud A **Looping* Animation
 ---
 
-- [ ] **Stage : 1**
+- [ ] ***Stage : 1***
   - [ ] Make Karel Jump 
   - [ ] Triggner the Jump when a mouse event (click) happens
   - [ ] Make Karel Jump an Animation
 
 ---
 
-- [ ] **Stage : 2**
+- [ ] ***Stage : 2***
   - [ ] Still thinking 😅
 
 ---
-### *Some Useless $hit*
+## ***Some Useless $hit***
 ---
  <!-- visitor counter -->
 <table aligh="center">
