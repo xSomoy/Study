@@ -1,5 +1,5 @@
 from graphics import Canvas
-CANVAS_WIDTH = 400
+CANVAS_WIDTH = 800
 CANVAS_HEIGHT = 400
 
 
