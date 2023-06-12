@@ -1,7 +1,8 @@
 # Karels Journey To ***Bangladesh***
 ## By [**John Deadman**](https://github.com/xSomoy)
 ---
-## ***For Standforn CIP3 [Final Project](https://codeinplace.stanford.edu/cip3/handout/finalproject)***
+![Stanford](https://basketballexposurecamps.com/wp-content/uploads/stanford_university_logo-1-e1557426099869.png)
+## ***For Stanford CIP3 [Final Project](https://codeinplace.stanford.edu/cip3/handout/finalproject)***
 
 ---
 
@@ -33,3 +34,5 @@
     <td><img src="https://profile-counter.glitch.me/xsomoy/count.svg" alt="xSomoy" /></td>
   </tr>
 </table>
+
+---
