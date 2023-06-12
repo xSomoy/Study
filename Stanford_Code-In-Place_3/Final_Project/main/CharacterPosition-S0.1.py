@@ -1,4 +1,4 @@
-# Character Position
+# Character Position S0.1
 
 from graphics import Canvas
 
