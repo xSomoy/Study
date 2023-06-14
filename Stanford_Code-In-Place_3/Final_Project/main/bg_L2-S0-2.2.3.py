@@ -22,7 +22,7 @@ def main():
     print("Karel")
 
     # Waiting for user interuption
-    # i = input()
+    i = input()
 
 
 if __name__ == '__main__':
