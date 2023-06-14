@@ -1,5 +1,5 @@
-# bg_L2-S0-2.2.2
-
+# bg_L2-S0-2.2.3
+ 
 from graphics import Canvas
 
 CANVAS_WIDTH = 800
@@ -11,7 +11,7 @@ def main():
     print("canvas created")
     #   Backgournd Layer 0
     canvas.create_image_with_size(
-        0, 0, CANVAS_WIDTH, CANVAS_HEIGHT, "Background.jpg")
+        0, 0, CANVAS_WIDTH, CANVAS_HEIGHT, "bg-0.jpg")
     print("BG-L0")
     #   Backgournd Layer 2
     canvas.create_image(0, CANVAS_HEIGHT-30, "road.png")
@@ -21,6 +21,8 @@ def main():
         100, CANVAS_HEIGHT-60, 50, 60, "Karel.png")
     print("Karel")
 
+    # Waiting for user interuption 
+    # i = input()
 
 if __name__ == '__main__':
     main()
