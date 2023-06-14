@@ -11,20 +11,26 @@
 - [ ] ***Stage : 0***
   - [x] Create Karel Character
   - [ ] Design Backgroud Layers
-    - [x] L0 - Still Backgroud 
+    - [x] L0 - World Map 
     - [ ] L1 - Moving City/LandScape
     - [x] L2 - Road
+    - [x] L3 - Karel
   - [ ] Add Layers to The Background
-    - [x] L0
-    - [ ] L1
-    - [x] L2
-  - [ ] Make the Backgroud A **Looping* Animation
+    - [x] L0 - World Map 
+    - [ ] L1 - Moving City/LandScape
+    - [x] L2 - Road
+    - [x] L3 - Karel
+  
 ---
 
 - [ ] ***Stage : 1***
-  - [ ] Make Karel Jump 
-  - [ ] Triggner the Jump when a mouse event (click) happens
-  - [ ] Make Karel Jump an Animation
+  - [ ] Animation
+    - [ ] Animate The L1 
+    - [ ] Animate The L2
+  - [ ] Game Loop
+    - [ ] Loop The whole game and animation until unser Interupt
+  - [ ] Design User Input :  Mouse Click or Space Bar for Karel Jump
+  
 
 ---
 
@@ -34,10 +40,12 @@
     - [ ] Obstechale 1 : Stone
     - [ ] Obstechale 2 : Puddle / Water
   - [ ] Display Obstechale
+    - [ ] Displplay 1 Type of obstechale
 
 ---
 
 - [ ] ***Stage : 3***
+  - [ ] Make Karel Jump an Animation
   - [ ] Thnking 🤔🤔🤔
 
 ---
