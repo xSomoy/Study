@@ -11,14 +11,14 @@ def main():
     print("canvas created")
     #   Backgournd Layer 0
     canvas.create_image_with_size(
-        0, 0, CANVAS_WIDTH, CANVAS_HEIGHT, "backgroud-3.jpg")
+        0, 0, CANVAS_WIDTH, CANVAS_HEIGHT, "../Graphics/Background.jpg")
     print("BG-L0")
     #   Backgournd Layer 2
-    canvas.create_image(0, CANVAS_HEIGHT-30, "road.png")
+    canvas.create_image(0, CANVAS_HEIGHT-30, "Graphics/road.png")
     print("BG-L2")
    # Karel Charecter
     canvas.create_image_with_size(
-        100, CANVAS_HEIGHT-60, 50, 60, "Karel.png")
+        100, CANVAS_HEIGHT-60, 50, 60, "Graphics/Karel.png")
     print("Karel")
 
 
