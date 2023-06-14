@@ -29,12 +29,19 @@
     - [ ] Animate The L2
   - [ ] Game Loop
     - [ ] Loop The whole game and animation until unser Interupt
-  - [ ] Design User Input :  Mouse Click or Space Bar for Karel Jump
+    - [ ] Design User Input :  Mouse Click or Space Bar for Karel Jump   
+    - [ ] Add Functionality for Karel's Jump 
   
 
 ---
 
+
 - [ ] ***Stage : 2***
+  - [ ] Make Karel Jump an Animation
+- [ ] Thnking 🤔🤔🤔
+
+---
+- [ ] ***Stage : 3***
   - [ ] Design Obstechale
     - [ ] Obstechale 0 : Brick
     - [ ] Obstechale 1 : Stone
@@ -43,11 +50,7 @@
     - [ ] Displplay 1 Type of obstechale
 
 ---
-
-- [ ] ***Stage : 3***
-  - [ ] Make Karel Jump an Animation
-  - [ ] Thnking 🤔🤔🤔
-
+---
 ---
 ## ***Some Useless $hit***
 ---
