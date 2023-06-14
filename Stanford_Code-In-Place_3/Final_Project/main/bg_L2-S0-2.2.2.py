@@ -10,8 +10,8 @@ def main():
     canvas = Canvas(CANVAS_WIDTH, CANVAS_HEIGHT)
     print("canvas created")
     #   Backgournd Layer 0
-    canvas.create_image_with_size(
-        0, 0, CANVAS_WIDTH, CANVAS_HEIGHT, "Background.jpg")
+    # canvas.create_image_with_size(
+    #     0, 0, CANVAS_WIDTH, CANVAS_HEIGHT, "Background.jpg")
     print("BG-L0")
     #   Backgournd Layer 2
     canvas.create_image(0, CANVAS_HEIGHT-30, "road.png")

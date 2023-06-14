@@ -1,5 +1,5 @@
 # bg_L2-S0-2.2.3
- 
+
 from graphics import Canvas
 
 CANVAS_WIDTH = 800
@@ -21,8 +21,9 @@ def main():
         100, CANVAS_HEIGHT-60, 50, 60, "Karel.png")
     print("Karel")
 
-    # Waiting for user interuption 
+    # Waiting for user interuption
     # i = input()
+
 
 if __name__ == '__main__':
     main()
