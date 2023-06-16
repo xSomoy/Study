@@ -10,10 +10,19 @@ weights = [[0.2, 0.8, -0.5, 1.0],
 
 biases = [2, 3, 0.5]
 
+# layer 2
 
-outputs = np.dot(inputs, np.array(weights).T) + biases
+weights2 = [[0.1, -0.14, 0.5],
+           [-0.5, 0.12, -0.33],
+           [-0.44, -0.27, ]]
 
-# outputs = np.dot(np.array(weights).T, inputs) + biases
+biases2 = [2, 3, 0.5]
+
+
+# outputs = np.dot(inputs, np.array(weights).T) + biases
+
+outputs = np.dot(weights, np.array(inputs).T) + biases #doesn't work
+# outputs = np.dot(np.array(weights).T, inputs) + biases #doesn't work
 
 print(outputs)
 
