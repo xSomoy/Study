@@ -11,7 +11,7 @@ weights = [[0.2, 0.8, -0.5, 1.0],
 biases = [2, 3, 0.5]
 
 
-outputs = np.dot(weights, inputs) + biases
+outputs = np.dot(inputs, np.array(weights).T) + biases
 
 print(outputs)
 
