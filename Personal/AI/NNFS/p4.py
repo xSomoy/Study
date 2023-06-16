@@ -21,6 +21,12 @@ layer1.forward(X)
 print('\nLayer 1 Outputs\n')
 print(layer1.output)
 
+layer2.forward(layer1.output)
+print('\nLayer 2 Outputs\n')
+print(layer2.output)
+
+
+
 
 
 
