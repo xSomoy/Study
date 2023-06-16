@@ -5,4 +5,6 @@
 
 ### Book: [Neural Networks from Scratch](https://nnfs.io/)
 
+### Repo: [NNfSiX](https://github.com/Sentdex/NNfSiX)
+
 - Start: 2200 16062023
