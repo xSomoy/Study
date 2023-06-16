@@ -8,6 +8,8 @@
 ![Stanford](https://basketballexposurecamps.com/wp-content/uploads/stanford_university_logo-1-e1557426099869.png)
 ## ***For Stanford CIP3 [Final Project](https://codeinplace.stanford.edu/cip3/handout/finalproject)***
 
+[![Submit](https://freepngimg.com/thumb/submit_button/25769-3-submit-button-image-thumb.png))](https://codeinplace.stanford.edu/cip3/projectSubmission)
+
 ---
 
 > ### **Roadmap**
