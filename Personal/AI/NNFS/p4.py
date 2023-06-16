@@ -8,7 +8,6 @@ X = [[1, 2, 3, 2.5],
 class Layer_Dense:
     def __init__(self):
         pass
-
     def forward(self):
         pass
 
