@@ -1,0 +1,30 @@
+Run: 1
+New set of weights found iteration: 0 loss: 1.0986564 acc: 0.3333333333333333
+New set of weights found iteration: 3 loss: 1.098138 acc: 0.3333333333333333
+New set of weights found iteration: 117 loss: 1.0980115 acc: 0.3333333333333333
+New set of weights found iteration: 124 loss: 1.0977516 acc: 0.6
+New set of weights found iteration: 165 loss: 1.0975711 acc: 0.3333333333333333
+New set of weights found iteration: 552 loss: 1.0974693 acc: 0.34
+New set of weights found iteration: 778 loss: 1.0968257 acc: 0.3333333333333333
+New set of weights found iteration: 4307 loss: 1.0965533 acc: 0.3333333333333333
+New set of weights found iteration: 4615 loss: 1.0964499 acc: 0.3333333333333333
+New set of weights found iteration: 9450 loss: 1.0964295 acc: 0.3333333333333333
+New set of weights found iteration: 13361 loss: 1.0963014 acc: 0.3333333333333333
+New set of weights found iteration: 14001 loss: 1.0959858 acc: 0.3333333333333333
+New set of weights found iteration: 24598 loss: 1.0947443 acc: 0.3333333333333333
+
+Run: 2
+
+New set of weights found iteration: 0 loss: 1.0986564 acc: 0.3333333333333333
+New set of weights found iteration: 3 loss: 1.098138 acc: 0.3333333333333333
+New set of weights found iteration: 117 loss: 1.0980115 acc: 0.3333333333333333
+New set of weights found iteration: 124 loss: 1.0977516 acc: 0.6
+New set of weights found iteration: 165 loss: 1.0975711 acc: 0.3333333333333333
+New set of weights found iteration: 552 loss: 1.0974693 acc: 0.34
+New set of weights found iteration: 778 loss: 1.0968257 acc: 0.3333333333333333
+New set of weights found iteration: 4307 loss: 1.0965533 acc: 0.3333333333333333
+New set of weights found iteration: 4615 loss: 1.0964499 acc: 0.3333333333333333
+New set of weights found iteration: 9450 loss: 1.0964295 acc: 0.3333333333333333
+New set of weights found iteration: 13361 loss: 1.0963014 acc: 0.3333333333333333
+New set of weights found iteration: 14001 loss: 1.0959858 acc: 0.3333333333333333
+New set of weights found iteration: 24598 loss: 1.0947443 acc: 0.3333333333333333
