@@ -16,7 +16,7 @@ class Layer_Dense:
         self.output = np.dot(inputs, self.weights) + self.biases
 
 
-class Activation_ReLU:
+class Activation_ReLU:  # Rectified Lieaner Unit
     def forward(self, inputs):
         self.output = np.maximum(0, inputs)
 
