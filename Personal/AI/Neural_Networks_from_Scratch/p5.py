@@ -35,7 +35,9 @@ layer1.forward(X)
 print(layer1.output)
 
 activation1.forward(layer1.output)
+
 print('\n\n Activation \n')
+
 print(activation1.output)
 
 
