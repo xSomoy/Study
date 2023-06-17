@@ -14,6 +14,9 @@ loss = -math.log(softmax_output[0])
 
 print(loss)
 
+print(-math.log(0.7))
+print(-math.log(0.5))
+
 # Logarithm Math
 # b = 5.2
 # print(np.log(b))
