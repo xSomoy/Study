@@ -1,6 +1,9 @@
 # Softmax Activision Function
 import math
 import numpy as np
+import nnfs
+
+nnfs.init()
 
 layer_outputs = [4.8, 1.12, 2.385]
 
