@@ -74,5 +74,7 @@ softmax_outputs = np.array(activation2.output)
 
 class_targets = [0, 1, 1]
 
+predictions = np.argmax(softmax_outputs, axis=1)
 
-print(softmax_outputs)
+
+print(predictions)
