@@ -28,3 +28,19 @@
 - [ ] **Part 7**
 - [ ] **Part 8**
 - [ ] **Part 9**
+
+
+--- 
+
+
+
+
+*Some useless $hit I always do with my repos*
+
+<!-- visitor counter -->
+<table aligh="center">
+  <tr>
+    <td>Profile Visits</td>
+    <td><img src="https://profile-counter.glitch.me/xsomoy/count.svg" alt="xSomoy" /></td>
+  </tr>
+</table>
