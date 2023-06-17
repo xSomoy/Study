@@ -16,11 +16,12 @@ exp_values = np.exp(layer_outputs)
 
 print(exp_values)
 
-norm_base = sum(exp_values)
-norm_values = []
+norm_values = exp_values / np.sum(exp_values)
+# norm_base = sum(exp_values)
+# norm_values = []
 
-for value in exp_values:
-    norm_values.append(value / norm_base)
+# for value in exp_values:
+#     norm_values.append(value / norm_base)
 
 print(norm_values)
 print(sum(norm_values))
