@@ -90,3 +90,4 @@ for iteration in range(100000):
         best_dense1_biases = dense1.biases.copy()
         best_dense2_weights = dense2.weights.copy()
         best_dense2_biases = dense2.biases.copy()
+        lowset_loss = loss
