@@ -43,6 +43,8 @@ class Loss_CategoricalCrossentropy(Loss):
             corrent_confidences = y_pred_clipped[range(samples), y_true]
         elif len(y_true.shape) == 2:
             corrent_confidences = np.sum(y_pred_clipped * y_true, axis=1)
+        negative_log_likelihoods = -np.log(corrent_confidences)
+        return negative_log_likelihoods
 
 
 X, y = spiral_data(samples=100, classes=3)
