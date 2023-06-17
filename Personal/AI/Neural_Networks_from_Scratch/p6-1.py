@@ -1,5 +1,6 @@
 # Softmax Activision Function
 import math
+import numpy as np
 
 layer_outputs = [4.8, 1.12, 2.385]
 
@@ -8,9 +9,10 @@ E = math.e
 # E = 2.71828182846
 # print(E)
 
-exp_values = []
-for output in layer_outputs:
-    exp_values.append(E**output)
+exp_values = np.exp(layer_outputs)
+
+# for output in layer_outputs:
+#     exp_values.append(E**output)
 
 print(exp_values)
 
