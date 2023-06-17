@@ -34,7 +34,9 @@ layer1.forward(X)
 
 print(layer1.output)
 
-# activation1.forward(layer1.output)
+activation1.forward(layer1.output)
+print('\n\n Activation \n')
+print(activation1.output)
 
 
 # inputs = [0, 2, -1, 3.3, -2.7, 1.1, 2.2, -100]
