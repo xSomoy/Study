@@ -7,4 +7,12 @@
 
 ### Repo: [NNfSiX](https://github.com/Sentdex/NNfSiX)
 
+---
+### *Additional Resources:*
+### [CS231n: Convolutional Neural Networks for Visual Recognition.](https://cs231n.github.io/neural-networks-case-study/)
+
+### [CS231n-Repo](https://github.com/cs231n/cs231n.github.io)
+
+---
+
 - Start: 2200 16062023
