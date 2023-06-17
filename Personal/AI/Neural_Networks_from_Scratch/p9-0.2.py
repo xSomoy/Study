@@ -56,6 +56,7 @@ X, y = vertical_data(samples=100, classes=3)
 # plt.scatter(X[:, 0], X[:, 1], c=y, s=40, cmap='brg')
 # plt.show()
 
+# -------- TOTALLY RANDOM -------
 
 dense1 = Layer_Dense(2, 3)
 activation1 = Activation_ReLU()
@@ -71,10 +72,10 @@ best_dense2_weights = dense2.weights.copy()
 best_dense2_biases = dense2.biases.copy()
 
 for iteration in range(100000):
-    dense1.weights = 0.05 * np.random.randn(2, 3)
-    dense1.biases = 0.05 * np.random.randn(1, 3)
-    dense2.weights = 0.05 * np.random.randn(3, 3)
-    dense2.biases = 0.05 * np.random.randn(1, 3)
+    dense1.weights += 0.05 * np.random.randn(2, 3)
+    dense1.biases += 0.05 * np.random.randn(1, 3)
+    dense2.weights += 0.05 * np.random.randn(3, 3)
+    dense2.biases += 0.05 * np.random.randn(1, 3)
 
     dense1.forward(X)
     activation1.forward(dense1.output)
@@ -92,3 +93,8 @@ for iteration in range(100000):
         best_dense2_weights = dense2.weights.copy()
         best_dense2_biases = dense2.biases.copy()
         lowset_loss = loss
+    else:
+        dense1.weights = best_dense1_weights.copy()
+        dense1.biases = best_dense1_biases.copy()
+        dense2.weights = best_dense2_weights.copy()
+        dense2.biases = best_dense1_biases
