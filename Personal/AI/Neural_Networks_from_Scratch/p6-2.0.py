@@ -22,7 +22,7 @@ class Activation_ReLU:  # Rectified Lieaner Unit
 
 class Activation_Softmax:
     def forward(self, inputs):
-        exp_values = np.exp(input - np.max(inputs, axis=1, keepdims=True))
+        exp_values = np.exp(inputs - np.max(inputs, axis=1, keepdims=True))
         probabilities = exp_values / np.sum(exp_values, axis=1, keepdims=True)
         self.output = probabilities
 
@@ -39,3 +39,5 @@ activation1.forward(dense1.output)
 
 dense2.forward(activation1.output)
 activation2.forward(dense2.output)
+
+print(activation2.output[:5])
