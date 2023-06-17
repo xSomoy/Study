@@ -1,4 +1,4 @@
-# Softmax Activision Function
+# Softmax Activision Function = Exponentiate > Normalize > Output
 import math
 import numpy as np
 import nnfs
