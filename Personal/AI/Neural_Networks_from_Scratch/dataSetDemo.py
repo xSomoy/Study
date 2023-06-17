@@ -21,6 +21,10 @@ print('here')
 
 X, y = spiral_data(100, 3)
 
-# lets visualize the data:
-plt.scatter(X[:, 0], X[:, 1], c=y, s=40, cmap=plt.cm.Spectral)
+plt.scatter(X[:, 0], X[:, 1], c=y, cmap="brg")
 plt.show()
+
+
+# # lets visualize the data:
+# plt.scatter(X[:, 0], X[:, 1], c=y, s=40, cmap=plt.cm.Spectral)
+# plt.show()
