@@ -70,7 +70,9 @@ print('Loss:', loss)
 
 # Calculate Accuracy
 
-softmax_outputs = activation2.output
+softmax_outputs = np.array(activation2.output)
+
+class_targets = [0, 1, 1]
 
 
 print(softmax_outputs)
