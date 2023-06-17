@@ -1,4 +1,6 @@
 # Studying Neural Network from Scratch
+**Starts: *2200 16062023***
+---
 ## Study Matetial's
 
 ### Video Series: [Neural Networks from Scratch in Python](https://www.youtube.com/playlist?list=PLQVvvaa0QuDcjD5BAw2DxE6OF2tius3V3)
@@ -14,5 +16,15 @@
 ### [CS231n-Repo](https://github.com/cs231n/cs231n.github.io)
 
 ---
-
-- Start: 2200 16062023
+## All the parts from Video [Tutorials](https://www.youtube.com/playlist?list=PLQVvvaa0QuDcjD5BAw2DxE6OF2tius3V3)
+- [x] **Part 1**
+- [x] **Part 2**
+- [x] **Part 3**
+- [x] **Part 4**
+- [x] **Part 5**
+- [x] **Part 6**
+  - [x] **Part 6-1**
+  - [x] **Part 6-2**
+- [ ] **Part 7**
+- [ ] **Part 8**
+- [ ] **Part 9**
