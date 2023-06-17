@@ -1,10 +1,11 @@
 import numpy as np
+import matplotlib.pyplot as plt
 import nnfs
-
 from nnfs.datasets import spiral_data
-
 nnfs.init()
 
+
+# -----------------------------------------------------
 
 class Layer_Dense:
     def __init__(self, n_inputs, n_neurons):
