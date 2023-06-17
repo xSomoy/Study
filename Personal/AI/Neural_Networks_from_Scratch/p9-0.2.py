@@ -56,7 +56,7 @@ X, y = vertical_data(samples=100, classes=3)
 # plt.scatter(X[:, 0], X[:, 1], c=y, s=40, cmap='brg')
 # plt.show()
 
-# -------- RANDOM QWEAKS TO THE BEST BIASES -------
+# -------- RANDOM QWEAKS TO THE BESTWEIGHTS AND BIASES -------
 
 dense1 = Layer_Dense(2, 3)
 activation1 = Activation_ReLU()
