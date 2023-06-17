@@ -31,8 +31,21 @@
   - [x] **Part 8-2**
 - [x] **Part 9**
 
+## The Video Series Didn't Continue After Part 9
 
---- 
+**Ends: *1429 17062023***
+
+---
+
+### Further Study will continue using The [Book](https://nnfs.io/) And under the guideline of a [Repo](https://github.com/Dev-Gaju/NNFS-book-with-Implementation) by [Dev-Gaju](https://github.com/Dev-Gaju)
+
+### The Ebook already has been collected and the repo has been [forked](https://github.com/xSomoy/NNFS-book-with-Implementation) to my github account. 
+
+- John Deadman
+  - 1437 17062023 
+
+
+---
 
 
 
