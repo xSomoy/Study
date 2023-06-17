@@ -76,5 +76,7 @@ class_targets = [0, 1, 1]
 
 predictions = np.argmax(softmax_outputs, axis=1)
 
+accuracy = np.mean(predictions == class_targets)
 
-print(predictions)
+
+print('Acc:', accuracy)
