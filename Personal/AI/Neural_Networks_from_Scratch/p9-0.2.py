@@ -97,4 +97,4 @@ for iteration in range(100000):
         dense1.weights = best_dense1_weights.copy()
         dense1.biases = best_dense1_biases.copy()
         dense2.weights = best_dense2_weights.copy()
-        dense2.biases = best_dense1_biases
+        dense2.biases = best_dense2_biases.copy()
