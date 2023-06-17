@@ -29,13 +29,13 @@ class Activation_Softmax:
 
 class Loss:
     def calculate(self, output, y):
-        sample_losses = self.forward(output. y)
+        sample_losses = self.forward(output, y)
         data_loss = np.mean(sample_losses)
         return data_loss
-    
+
 
 class Loss_CategoricalCrossentropy(Loss):
-    def forward(self, y_pred, y_true)
+    def forward(self, y_pred, y_true):
         samples = len(y_pred)
         y_pred_clipped = np.clip(y_pred, 1e-7, 1-1e-7)
 
@@ -61,3 +61,8 @@ dense2.forward(activation1.output)
 activation2.forward(dense2.output)
 
 print(activation2.output[:5])
+
+loss_fucntion = Loss_CategoricalCrossentropy()
+loss = loss_fucntion.calculate(activation2.output, y)
+
+print('Loss:', loss)
