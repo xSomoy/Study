@@ -5,6 +5,8 @@ import nnfs
 from nnfs.datasets import vertical_data
 nnfs.init()
 
+# ------------------------------------------------------------------
+
 
 class Layer_Dense:
     def __init__(self, n_inputs, n_neurons):
@@ -46,6 +48,8 @@ class Loss_CategoricalCrossentropy(Loss):
         negative_log_likelihoods = -np.log(corrent_confidences)
         return negative_log_likelihoods
 
+# ------------------------------------------------------------------------------------
+
 
 X, y = vertical_data(samples=100, classes=3)
 
@@ -70,3 +74,5 @@ for iteration in range(100000):
     dense1.biases = 0.05 * np.random.randn(1, 3)
     dense2.weights = 0.05 * np.random.randn(3, 3)
     dense2.biases = 0.05 * np.random.randn(1, 3)
+
+    dense1.forward(x)
