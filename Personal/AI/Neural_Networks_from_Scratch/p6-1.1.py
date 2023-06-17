@@ -9,9 +9,9 @@ layer_outputs = [[4.8, 1.12, 2.385],
 
 exp_values = np.exp(layer_outputs)
 
-print(exp_values)
+norm_values = exp_values / np.sum(exp_values, axis=1, keepdims=True)
 
-# norm_values = exp_values / np.sum(exp_values)
+print(norm_values)
 
 # print(norm_values)
 # print(sum(norm_values))
