@@ -17,7 +17,7 @@ exp_values = np.exp(layer_outputs)
 # for output in layer_outputs:
 #     exp_values.append(E**output)
 
-print(exp_values)
+# print(exp_values)
 
 norm_values = exp_values / np.sum(exp_values)
 # norm_base = sum(exp_values)
