@@ -10,4 +10,7 @@ doc = BeautifulSoup(result.text, "html.parser")
 # print(doc.prettify())
 # prices = doc.find_all(text="$") # doesn't work any more
 prices = doc.find_all(string="$")  # this does
-print(prices)
+parent = prices[0].parent
+strong = parent.find("strong")
+# print(parent)
+print(strong)
