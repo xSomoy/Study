@@ -13,6 +13,6 @@ tag = doc.title
 # print(tag.string)
 # print(doc)
 
-tags = doc.find_all("p")
+tags = doc.find_all("p")[0]
 
-print(tags)
+print(tags.find_all("b"))
