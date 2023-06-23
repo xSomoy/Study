@@ -8,4 +8,5 @@ result = requests.get(url)
 doc = BeautifulSoup(result.text, "html.parser")
 # print(result.text)
 # print(doc.prettify())
-prices = doc.find_all(string="$")
+# prices = doc.find_all(text="$") # doesn't work any more
+# prices = doc.find_all(string="$")
