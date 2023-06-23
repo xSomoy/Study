@@ -13,4 +13,5 @@ prices = doc.find_all(string="$")  # this does
 parent = prices[0].parent
 strong = parent.find("strong")
 # print(parent)
-print(strong)
+# print(strong)
+print(strong.string)
