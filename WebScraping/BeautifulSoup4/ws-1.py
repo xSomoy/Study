@@ -6,4 +6,13 @@ with open("index.html", "r") as f:
 # print(doc.prettify())
 
 tag = doc.title
-print(tag)
+# print(tag)
+# print(tag.string)
+
+# tag.string = "hello"
+# print(tag.string)
+# print(doc)
+
+tags = doc.find_all("p")
+
+print(tags)
