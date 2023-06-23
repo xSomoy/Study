@@ -2,11 +2,12 @@ from bs4 import BeautifulSoup
 import requests
 
 # HTML URL
-url = "https://www.newegg.ca/gigabyte-geforce-rtx-3080-ti-gv-n308tgaming-oc-12gd/p/N82E16814932436?Description=3080&cm_re=3080-_-14-932-436-_-Product"
+url = "https://www.newegg.ca/gigabyte-geforce-rtx-4090-gv-n4090gaming-oc-24gd/p/N82E16814932550?Item=N82E16814932550"
 
 result = requests.get(url)
 doc = BeautifulSoup(result.text, "html.parser")
 # print(result.text)
 # print(doc.prettify())
 # prices = doc.find_all(text="$") # doesn't work any more
-# prices = doc.find_all(string="$")
+prices = doc.find_all(string="$")  # this does
+print(prices)
