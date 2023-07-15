@@ -1,0 +1,4 @@
+This is an unofficial CTF challenge build by "John Deadman"
+GitHub: github.com/xSomoy
+----------------------------------------------------------
+Hint: Find the 8 Digit Code to Get the Flag.
