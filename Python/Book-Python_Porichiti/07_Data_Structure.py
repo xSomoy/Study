@@ -29,4 +29,6 @@ li1 = li2
 li2[0] = 9
 print(li1)
 stack = []
-
+stack.append(2)
+stack.append(3)
+print(stack)
