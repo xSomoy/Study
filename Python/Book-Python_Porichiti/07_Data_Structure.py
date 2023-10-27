@@ -18,3 +18,6 @@ li2 = [*range(10, 21)]
 print(li2)
 li.extend(li2)
 print(li)
+print(li.count(9))
+li.remove(5)
+print(li)
