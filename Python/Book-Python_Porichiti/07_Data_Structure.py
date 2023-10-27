@@ -40,4 +40,11 @@ for item in li:
     if item % 2 == 0:
         even.append(item)
 print(even)
+odd = []
+for item in li:
+    if item % 2 == 1:
+        odd.append(item)
+print(odd)
 
+
+# Tuple
