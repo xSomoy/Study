@@ -35,3 +35,9 @@ stack.append(4)
 print(stack)
 stack.pop(0)
 print(stack)
+even = []
+for item in li:
+    if item % 2 == 0:
+        even.append(item)
+print(even)
+
