@@ -14,4 +14,5 @@ li.insert(0, 0)
 print(li)
 li.insert(0, -1)
 print(li)
-
+li2 = [*range(10, 21)]
+print(li2)
