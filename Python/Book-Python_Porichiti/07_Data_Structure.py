@@ -21,3 +21,12 @@ print(li)
 print(li.count(9))
 li.remove(5)
 print(li)
+li.pop(0)
+print(li)
+li3 = [0] * 5
+print(li3)
+li1 = li2
+li2[0] = 9
+print(li1)
+stack = []
+
