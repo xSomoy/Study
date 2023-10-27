@@ -18,3 +18,13 @@ while fib_2 < 100:
 vowels = ['a', 'e', 'i', 'o', 'u']
 for ch in vowels:
     print(ch)
+
+for i in range(10):
+    print(i)
+    if i > 5:
+        break
+print(' up break, down continue ')
+for i in range(10):
+    if i < 5:
+        continue
+    print(i)
