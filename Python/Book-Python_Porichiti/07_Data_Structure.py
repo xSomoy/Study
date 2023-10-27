@@ -51,3 +51,4 @@ print(odd)
 
 tpl = (1,2,3, [1,2,3])
 print(tpl[3][2])
+print(type(tpl))
