@@ -52,3 +52,22 @@ print(odd)
 tpl = (1,2,3, [1,2,3])
 print(tpl[3][2])
 print(type(tpl))
+tpl1 = (1,2,3,'string',3.5)
+for item in tpl1:
+    print(item)
+# Set
+tpl = (1,2,3,4,5,)
+a = set(tpl)
+print(type(a))
+print(a)
+
+li = [2,3,5,7]
+b = set(li)
+print(b)
+print(a & b)
+print(a | b)
+print(a ^ b)
+print(7 in a)
+print(7 in b)
+c  = set('abcd')
+print(c)
