@@ -71,3 +71,10 @@ print(7 in a)
 print(7 in b)
 c  = set('abcd')
 print(c)
+li = [1,2,3,4,4,5,2,3,4,5,6,7,8]
+d = set(li)
+print(d)
+li = list(d)
+print(li)
+
+# Dictionary
