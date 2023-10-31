@@ -1,6 +1,7 @@
-## BOOK: Python Porichoy - Chapter 0
+## BOOK: Python Porichoy - Chapter 07
 
 # List
+print('List:-')
 
 li = [1,2,3,4,5,6,7,8]
 print(li)
@@ -48,6 +49,8 @@ print(odd)
 
 
 # Tuple
+print('Tuple:-')
+
 
 tpl = (1,2,3, [1,2,3])
 print(tpl[3][2])
@@ -78,3 +81,40 @@ li = list(d)
 print(li)
 
 # Dictionary
+print('Dictionary:-')
+
+dt = {'a':'A', 'b':'B'}
+print(dt['a'])
+result = {1 : 90, 2 : 95, 3 : 98}
+print(result[3])
+div = {
+        'Dhaka' : 10,
+        'Chittagong' : 15,
+        'Sylhet' : 8,
+        'Khulna' : 20,
+        'Rajshahi' : 12,
+        'Rangpu' : 10,
+        'Barishal' : 8,
+        }
+print(div['Dhaka'])
+print(type(div))
+div['Dhaka'] = 15
+del div['Khulna']
+print(div)
+div['Khulna'] = 20
+print(div)
+for item in div:
+    print(item)
+for item in div :
+    print(item , div[item])
+print(div.keys())
+for key in div.keys():
+    print(div[key])
+
+print(type(div.keys()))
+
+for key, value in div.items(): #interitems doesn't work
+    print(key, value)
+
+for x in div.items():
+    print(x)
