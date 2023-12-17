@@ -1,3 +1,5 @@
+## BOOK: Python Porichiti - Chapter 09
+
 s = 'a b c d'
 print(s.split())
 #-------

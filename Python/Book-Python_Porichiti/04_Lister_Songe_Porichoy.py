@@ -1,4 +1,5 @@
-## BOOK: Python Porichoy - Chapter 04
+## BOOK: Python Porichiti - Chapter 04
+
 
 li = [ 'lamp', 'laptop', 'cell phone', 'pen', 'stapler' ]
 print(type(li))

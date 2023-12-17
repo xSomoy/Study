@@ -1,4 +1,4 @@
-## BOOK: Python Porichoy - Chapter 08
+## BOOK: Python Porichiti - Chapter 08
 
 # Functions 
 

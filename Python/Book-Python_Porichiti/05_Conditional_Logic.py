@@ -1,4 +1,4 @@
-## BOOK: Python Porichoy - Chapter 05
+## BOOK: Python Porichiti - Chapter 05
 
 print(type(True))
 print(bool(-1))

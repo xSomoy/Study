@@ -1,4 +1,4 @@
-## BOOK: Python Porichoy - Chapter 06
+## BOOK: Python Porichiti - Chapter 06
 
 i = 1
 while i <= 10:

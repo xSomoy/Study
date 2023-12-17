@@ -1,4 +1,4 @@
-## BOOK: Python Porichoy - Chapter 07
+## BOOK: Python Porichiti - Chapter 07
 
 # List
 print('List:-')
