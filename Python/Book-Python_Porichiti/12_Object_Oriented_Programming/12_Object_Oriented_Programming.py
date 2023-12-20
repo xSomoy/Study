@@ -1,5 +1,7 @@
 ## BOOK: Python Porichiti - Chapter 12
 
+print('CLASS AND OBJECT\n-----------------------------------------')
+
 class Square:
     side = 0
     def area(self):
@@ -45,3 +47,63 @@ print(Square.side)
 print(sq.area())
 #print(Square.area())
 print(Square.area(sq))
+
+
+class Test:
+    side = 0
+    def __init__(obg, x):
+        obg.side = x
+    def area(obg):
+        return obg.side * obg.side
+
+tst = Test(2)
+print(Test.area(tst))
+
+
+
+print('\n\nINHERITANCE\n-------------------------------------------')
+
+class Rectangle:
+    def __init__(self):
+        print('Inside init of Rectangle')
+
+class Square(Rectangle):
+    def __init__(self):
+        print('Inside init of Square')
+
+
+r = Rectangle()
+sq = Square()
+
+
+## Test -- Start
+
+class A:
+    def __init__(self):
+        self.a = 3
+    def sq(self):
+        return self.a * self.a
+
+class B(A):
+    def __init__(self):
+        self.a = 2
+
+p = B()
+print(p.sq())
+
+## Test -- END
+
+
+class Rectangle:
+    def __init(self):
+        print('Inside init of Rectangle')
+
+    def area(self, x, y):
+        return x * y
+
+class Square(Rectangle):
+    def __init__(self):
+        print('Inside init of Square')
+
+sq = Square()
+print(sq.area(5,5))
