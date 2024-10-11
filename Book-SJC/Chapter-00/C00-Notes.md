@@ -119,7 +119,7 @@ Language  - Developer
 ```
 Memory is computers storage to store value for calculations.
 Bit is the smallest unit of computer storage. 8 bit is 1 Byte.
-Computer calculates mainly in bytes.
+Computer stored data primarily in bytes.
 ```
 
 ***ASCII value of n,c and g?***
