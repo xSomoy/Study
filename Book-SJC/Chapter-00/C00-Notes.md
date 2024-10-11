@@ -10,9 +10,29 @@
     5. Software or Program
 ---
 - RAM is main/primary memory
-- Mnemonics (ADD,SUB,MOV,MUL...) used in Assembly Language
+- Mnemonics /*Nemoneeks*/ (ADD,SUB,MOV,MUL...) used in Assembly Language
 - Assembler does Assembly to machine code
 - Fortan = FORmula TRANslation
 - COBOL = COmmon Bussiness Oriented Language
 - BASIC = Beginers All-purpose Symbolic Instruection Code
--
+- **Pascal is the first moduler programming language**
+## Compiler / Intepreter
+
+- Compiler compiles the whole program at once
+- Interpreter runs line by line
+
+## About C
+
+- Created in the year **1970**
+- Created at **Bell Labratory**
+- Created by **Danis Riche**
+- ANSI - American National Standard Institute
+
+| **High Level Language** | **Mid Level Language** | **Low Level Language** |
+| ----------- | ----------- | -------- |
+| Ada | C | Assembly
+| Modula-2  | Forth |
+| Pascal | Macro - Assembly
+| Cobol |
+| Fortan |
+| Basic |
