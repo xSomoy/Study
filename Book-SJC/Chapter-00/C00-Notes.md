@@ -55,10 +55,10 @@
 | 1024 byte | 1 kilo byte |
 | 1024 kilo byte | 1 mega byte |
 | 1024 mega byte | 1 giga byte |
-| 1024 giga byte | 1 tera byte
+| 1024 giga byte | 1 tera byte |
 
 ----
-## Practice: -
+## Practice Questions: -
 
 ***Different Parts of Computer and their duty?***
 ```
@@ -70,14 +70,30 @@
 5. Software or Program >> Set of instrucstion for the computer to do.
 ```
 
-Q. What is programming language?
-=
-Q. What is Compiler and Intrepreter?
-=
-Q. Why people develop different types of programming languages?
-=
-Q. Mention five programming languages and their developers?
-=
+***What is programming language?***
+```
+A programming language is a language people use when developing software
+to tell a computer what to do. It is a set of instruction for the computer.
+```
+***What is Compiler and Intrepreter?***
+```
+Compiler compiles the whole program at once and produce a executable file. On the other hand
+Interpreter runs code line by line.
+```
+***Why people develop different types of programming languages?***
+```
+
+```
+***Mention five programming languages and their developers?***
+```
+Language  - Developer
+---------------------
+1. Fortran - John Backus
+2. Pascal - Niklaus Wirth
+3. Basic - John G. Kemeny and Thomas E. Kurtz
+4. Python - Guido van Rossum
+5. C - Danis Riche
+```
 Q. Some C Features?
 =
 Q. What is Memory? What is Bit and Byte?
