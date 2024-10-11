@@ -75,15 +75,18 @@
 A programming language is a language people use when developing software
 to tell a computer what to do. It is a set of instruction for the computer.
 ```
+
 ***What is Compiler and Intrepreter?***
 ```
 Compiler compiles the whole program at once and produce a executable file. On the other hand
 Interpreter runs code line by line.
 ```
+
 ***Why people develop different types of programming languages?***
 ```
 
 ```
+
 ***Mention five programming languages and their developers?***
 ```
 Language  - Developer
@@ -94,14 +97,34 @@ Language  - Developer
 4. Python - Guido van Rossum
 5. C - Danis Riche
 ```
-Q. Some C Features?
-=
-Q. What is Memory? What is Bit and Byte?
-=
-Q. ASCII value of n,c and g?
-= n 110 099 103
 
-Q. How many bytes is 3GB?
-=
-Q. What is the first CELL address?
-=
+***Some C Features?***
+```
+
+```
+
+***What is Memory? What is Bit and Byte?***
+```
+
+```
+
+***ASCII value of n,c and g?***
+```
+Ascii value of n is 110.
+Ascii value of is 099.
+Ascii value of is 103.
+```
+
+***How many bytes is 3GB?***
+```
+3GB is 3 Giga Byte.
+3GB = 1024*3 = 3072 Mega byte
+3072 Mega byte = 1024 * 3072 = 3145728 Kilo Byte
+3145728 Kilo Byte = 1024 * 3145728 = 3,22,12,25,472 Byte
+
+```
+
+***What is the first CELL address?***
+```
+First Cell address is 0.
+```
