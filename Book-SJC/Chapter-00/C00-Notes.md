@@ -36,3 +36,23 @@
 | Cobol |
 | Fortan |
 | Basic |
+----
+**Structured and Unstructed Languages**
+| Unstructured Language | Structed Language |
+| ------------ | ------------ |
+| Fortran | Pascal |
+| Cobol | Ada |
+| Basic | Modula-2 |
+
+- Unstructured Language cannot be segmented into small pieces. Ex. No loops but Jump/Goto.
+
+## Memory
+
+- ASCII - American Standerd Code for Internarional Interchange
+
+| 8 bit | 1 byte |
+| ------------ | ------------ |
+| 1024 byte | 1 kilo byte |
+| 1024 kilo byte | 1 mega byte |
+| 1024 mega byte | 1 giga byte |
+| 1024 giga byte | 1 tera byte
