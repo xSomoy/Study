@@ -56,3 +56,27 @@
 | 1024 kilo byte | 1 mega byte |
 | 1024 mega byte | 1 giga byte |
 | 1024 giga byte | 1 tera byte
+
+----
+## Practice: -
+
+Q. Different Parts of Computer and their duty?
+=
+Q. What is programming language?
+=
+Q. What is Compiler and Intrepreter?
+=
+Q. Why people develop different types of programming languages?
+=
+Q. Mention five programming languages and their developers?
+=
+Q. Some C Features?
+=
+Q. What is Memory? What is Bit and Byte?
+=
+Q. ASCII value of n,c and g?
+=
+Q. How many bytes is 3GB?
+=
+Q. What is the first CELL address?
+=
