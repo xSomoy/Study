@@ -110,9 +110,9 @@ Language  - Developer
 
 ***ASCII value of n,c and g?***
 ```
-Ascii value of n is 110.
-Ascii value of is 099.
-Ascii value of is 103.
+ASCII value of 'n' is 110.
+ASCII value of 'c' is 099.
+ASCII value of 'g' is 103.
 ```
 
 ***How many bytes is 3GB?***
