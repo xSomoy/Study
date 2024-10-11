@@ -60,8 +60,16 @@
 ----
 ## Practice: -
 
-Q. Different Parts of Computer and their duty?
-=
+***Different Parts of Computer and their duty?***
+```
+1. Processor >> Does the calulation and processeing
+2. Random Access Memory - RAM >> Stores data temporary
+3. Input / Output Device (I/O Device) >> Takes information from users and
+    provide informations to the user.
+4. Data Storage (Secondary Memory) >> Stores data permanantly
+5. Software or Program >> Set of instrucstion for the computer to do.
+```
+
 Q. What is programming language?
 =
 Q. What is Compiler and Intrepreter?
@@ -75,7 +83,8 @@ Q. Some C Features?
 Q. What is Memory? What is Bit and Byte?
 =
 Q. ASCII value of n,c and g?
-=
+= n 110 099 103
+
 Q. How many bytes is 3GB?
 =
 Q. What is the first CELL address?
