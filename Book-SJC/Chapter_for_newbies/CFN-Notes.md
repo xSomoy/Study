@@ -1,1 +1,1 @@
-# Chapter for Newbies - Special Chapter [ *Notes* ]
+# Chapter for Newbies - Fresher [ *Notes* ]
