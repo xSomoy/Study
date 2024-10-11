@@ -1,4 +1,4 @@
-# Chapter 00 - Initial Discussion [ Notes ]
+# Chapter 00 - Initial Discussion [ *Notes* ]
 ##  Computer & Programming Language
 ****
 
@@ -8,18 +8,23 @@
     3. Input / Output Device (I/O Device)
     4. Data Storage (Secondary Memory)
     5. Software or Program
----
+----
 - RAM is main/primary memory
-- Mnemonics /*Nemoneeks*/ (ADD,SUB,MOV,MUL...) used in Assembly Language
+- Mnemonics /*Nemoneeks*/ (ADD,SUB,MOV,MUL ...) used in Assembly Language
 - Assembler does Assembly to machine code
-- Fortan = FORmula TRANslation
+- Fortran = FORmula TRANslation
 - COBOL = COmmon Bussiness Oriented Language
 - BASIC = Beginers All-purpose Symbolic Instruection Code
 - **Pascal is the first moduler programming language**
+
+----
+
 ## Compiler / Intepreter
 
 - Compiler compiles the whole program at once
 - Interpreter runs line by line
+
+----
 
 ## About C
 
@@ -34,7 +39,7 @@
 | Modula-2  | Forth |
 | Pascal | Macro - Assembly
 | Cobol |
-| Fortan |
+| Fortran |
 | Basic |
 ----
 **Structured and Unstructed Languages**
@@ -45,6 +50,8 @@
 | Basic | Modula-2 |
 
 - Unstructured Language cannot be segmented into small pieces. Ex. No loops but Jump/Goto.
+
+-----
 
 ## Memory
 
@@ -58,7 +65,7 @@
 | 1024 giga byte | 1 tera byte |
 
 ----
-## Practice Questions: -
+## Practice Questions :-
 
 ***Different Parts of Computer and their duty?***
 ```
@@ -84,7 +91,8 @@ Interpreter runs code line by line.
 
 ***Why people develop different types of programming languages?***
 ```
-
+People develops different types of programming language for different purposes.
+Like FORTRAN was developed for Scientific purpose, COBOL was developed for business purposes.
 ```
 
 ***Mention five programming languages and their developers?***
@@ -100,12 +108,18 @@ Language  - Developer
 
 ***Some C Features?***
 ```
+1. C is a structured language.
+2. It is a Mid-Level language.
+3. C is complied language.
+4. It is a general purpose language.
 
 ```
 
 ***What is Memory? What is Bit and Byte?***
 ```
-
+Memory is computers storage to store value for calculations.
+Bit is the smallest unit of computer storage. 8 bit is 1 Byte.
+Computer calculates mainly in bytes.
 ```
 
 ***ASCII value of n,c and g?***
@@ -120,7 +134,7 @@ ASCII value of 'g' is 103.
 3GB is 3 Giga Byte.
 3GB = 1024*3 = 3072 Mega byte
 3072 Mega byte = 1024 * 3072 = 3145728 Kilo Byte
-3145728 Kilo Byte = 1024 * 3145728 = 3,22,12,25,472 Byte
+3145728 Kilo Byte = 1024 * 3145728 = 322,12,25,472 Byte
 
 ```
 
@@ -128,3 +142,6 @@ ASCII value of 'g' is 103.
 ```
 First Cell address is 0.
 ```
+
+----
+-- Mushphyqur Rahman Tanveer
