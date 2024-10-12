@@ -1,6 +1,7 @@
 # Chapter 00 - Initial Discussion [ *Notes* ]
+----
 ##  Computer & Programming Language
-****
+
 
 -  Important 5 Factors of Comupter
     1. Processor
@@ -8,7 +9,7 @@
     3. Input / Output Device (I/O Device)
     4. Data Storage (Secondary Memory)
     5. Software or Program
-----
+>
 - RAM is main/primary memory
 - Mnemonics /*Nemoneeks*/ (ADD,SUB,MOV,MUL ...) used in Assembly Language
 - Assembler does Assembly to machine code
