@@ -68,7 +68,7 @@
 ----
 ## Practice Questions :-
 
-***Different Parts of Computer and their duty?***
+***1. Different Parts of Computer and their duty?***
 ```
 1. Processor >> Does the calulation and processeing
 2. Random Access Memory - RAM >> Stores data temporary
@@ -78,25 +78,25 @@
 5. Software or Program >> Set of instrucstion for the computer to do.
 ```
 
-***What is programming language?***
+***2. What is programming language?***
 ```
 A programming language is a language people use when developing software
 to tell a computer what to do. It is a set of instruction for the computer.
 ```
 
-***What is Compiler and Intrepreter?***
+***3. What is Compiler and Intrepreter?***
 ```
 Compiler compiles the whole program at once and produce a executable file. On the other hand
 Interpreter runs code line by line.
 ```
 
-***Why people develop different types of programming languages?***
+***4. Why people develop different types of programming languages?***
 ```
 People develops different types of programming language for different purposes.
 Like FORTRAN was developed for Scientific purpose, COBOL was developed for business purposes.
 ```
 
-***Mention five programming languages and their developers?***
+***5. Mention five programming languages and their developers?***
 ```
 Language  - Developer
 ---------------------
@@ -107,7 +107,7 @@ Language  - Developer
 5. C - Danis Riche
 ```
 
-***Some C Features?***
+***6. Some C Features?***
 ```
 1. C is a structured language.
 2. It is a Mid-Level language.
@@ -116,21 +116,21 @@ Language  - Developer
 
 ```
 
-***What is Memory? What is Bit and Byte?***
+***7. What is Memory? What is Bit and Byte?***
 ```
 Memory is computers storage to store value for calculations.
 Bit is the smallest unit of computer storage. 8 bit is 1 Byte.
 Computer stored data primarily in bytes.
 ```
 
-***ASCII value of n,c and g?***
+***8. ASCII value of n,c and g?***
 ```
 ASCII value of 'n' is 110.
 ASCII value of 'c' is 099.
 ASCII value of 'g' is 103.
 ```
 
-***How many bytes is 3GB?***
+***9. How many bytes is 3GB?***
 ```
 3GB is 3 Giga Byte.
 3GB = 1024*3 = 3072 Mega byte
@@ -139,7 +139,7 @@ ASCII value of 'g' is 103.
 
 ```
 
-***What is the first CELL address?***
+***10. What is the first CELL address?***
 ```
 First Cell address is 0.
 ```
