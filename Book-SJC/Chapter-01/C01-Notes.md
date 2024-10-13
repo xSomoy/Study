@@ -24,3 +24,4 @@
 - One name can't be use multiple time.
 - Same data type variable can be declared in one line. Ex. `int foo, var;`
 - Declare variable before function or block statements begining.
+- We can use exponentia notation for float and double type data. Ex. `1.63e3` or `6.445E2`
